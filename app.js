@@ -7,10 +7,12 @@ function render(data){
   const grid=$('storyGrid');grid.replaceChildren();
   data.stories.forEach((s,i)=>{
     const card=el('article','story');const top=el('div','story-top');top.append(el('span','category',s.category),el('span','number',String(i+1).padStart(2,'0')));
-    const title=el('h3','',s.title), desc=el('p','',s.summary||'Open the original article for the full story.');
+    const title=el('h3','',s.title), desc=el('p','',s.summary||'A full summary could not be verified from the available feed. Read the original report for details.');
+    if(s.why_it_matters){const why=el('p','story-why');why.append(el('strong','','Why it matters: '),document.createTextNode(s.why_it_matters));card.append(top,title,desc,why);}else{card.append(top,title,desc);}
+    if(s.uncertainty){const uncertain=el('p','story-uncertainty');uncertain.append(el('strong','','What’s uncertain: '),document.createTextNode(s.uncertainty));card.append(uncertain);}
     const bottom=el('div','story-bottom');bottom.append(el('span','source',s.source||'News source'));
     const link=el('a','','Read original ↗');link.href=s.url;link.target='_blank';link.rel='noopener noreferrer';bottom.append(link);
-    card.append(top,title,desc,bottom);grid.append(card);
+    card.append(bottom);grid.append(card);
   });$('status').textContent='';
 }
 async function loadEdition(file){$('status').textContent='Loading your edition…';try{const response=await fetch(`data/${encodeURIComponent(file)}.json`,{cache:'no-store'});if(!response.ok)throw Error('Edition unavailable');const data=await response.json();render(data);}catch(err){$('status').textContent='This edition could not be loaded. Please try again later.';}}
