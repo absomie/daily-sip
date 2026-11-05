@@ -34,7 +34,7 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit -m "Publish morning edition"
             git pull --rebase origin main
-git push origin main
+            git push origin main
           fi
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
