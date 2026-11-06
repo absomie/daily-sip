@@ -12,8 +12,9 @@ A free, cozy personal news reader. Mobile-friendly, archived by day, automatical
 
 ## What is free, and what isn't?
 - GitHub Pages hosting and scheduled GitHub Actions are free for a small public repository within the GitHub Free limits.
-- This version uses **Google News RSS** headlines and links, not paid APIs.
-- It does **not** use ChatGPT, generate original reporting, or claim to verify stories. Each card has a category-level context note, not an article-specific AI summary.
+- This version reads **publisher RSS feeds** (BBC, Guardian, Al Jazeera, NPR, Bangkok Post, CNA) with Google News RSS as a fallback, not paid news APIs.
+- Summaries are written by Gemini (free tier) from the article's own text, in a friendly "tea" voice. Add a `GEMINI_API_KEY` repository secret (Settings → Secrets and variables → Actions). Without it, cards just show headlines and links.
+- It does not generate original reporting or verify stories. If an article can't be read (paywall, blocked), the card links out instead of guessing.
 - RSS availability and terms may change. For a personal reader, use links to the original sources; do not present this as a licensed syndication service.
 - GitHub Pages sites are **public**, even if you're the only intended reader. Don't put private information or API keys in the repo.
 - The archive keeps up to 90 dates in the dropdown. Older JSON files remain in the repository unless you remove them.
@@ -29,7 +30,7 @@ Open `http://localhost:8000` (the update command needs internet access).
 ## Customize
 - Edit colors in `styles.css` (`:root`).
 - Edit the site name and introduction in `index.html`.
-- Change topics in `scripts/update.py` under `QUERIES`.
+- Change sources and topics in `scripts/update.py` under `SLOTS`. Change the voice in the `PROMPT` text.
 - Change the publishing time in `.github/workflows/daily.yml` (cron is UTC).
 
 ## Troubleshooting
