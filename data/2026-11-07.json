@@ -1,7 +1,7 @@
 {
   "date": "2026-11-07",
-  "generated_at": "2026-11-07T09:43:23.359168+00:00",
-  "mode": "ai",
+  "generated_at": "2026-11-07T11:32:58.764998+00:00",
+  "mode": "feed",
   "stories": [
     {
       "category": "World",
@@ -9,16 +9,16 @@
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-07T07:20:00+00:00",
-      "summary": "Paraguayan lawmakers refused to let President Santiago Peña simply resign, voting to impeach and place him under house arrest so he would lose his legal immunity. His dramatic downfall was sparked by the sudden failure of Ueno Bank, an institution tied to his past business interests that left half the nation locked out of their life savings. Peña now faces interrogation over alleged financial misconduct, while his former deputy Pedro Alliana has taken over the presidency through 2028.",
-      "why_it_matters": "half of Paraguay's population has been cut off from their money, leaving millions in financial turmoil during an unprecedented government collapse.",
-      "uncertainty": "It is not yet confirmed whether prosecutors will formally indict Peña following his questioning, though analysts report that criminal prosecution is likely."
+      "summary": "",
+      "why_it_matters": "",
+      "uncertainty": ""
     },
     {
       "category": "World",
-      "title": "Will Trump strike nuclear sites again as Iran engages ‘cognitive warfare’?",
+      "title": "Rains flood thousands of displaced families’ tents in Gaza",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/7/will-trump-strike-nuclear-sites-again-as-iran-engages-cognitive?traffic_source=rss",
-      "published": "2026-11-07T08:45:36+00:00",
+      "url": "https://www.aljazeera.com/news/2026/11/7/rains-flood-thousands-of-tents-in-gaza?traffic_source=rss",
+      "published": "2026-11-07T11:10:02+00:00",
       "summary": "",
       "why_it_matters": "",
       "uncertainty": ""
@@ -55,13 +55,13 @@
     },
     {
       "category": "Culture",
-      "title": "Relief, tears and sadness: Married at First Sight UK cast react to show being axed",
+      "title": "Monty Don bids 'final goodbye' to Gardeners' World after two decades",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/crx233lx94n7o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-07T05:12:52+00:00",
-      "summary": "Former cast members who reported being raped and sexually assaulted during filming have expressed profound relief after Channel 4 decided to cancel Married at First Sight UK. The network dropped the programme following an external review triggered by a BBC Panorama investigation, though the men involved have denied all allegations. Alongside shelving an already filmed season that will now never be broadcast, Channel 4 confirmed it will no longer air international editions of the franchise.",
-      "why_it_matters": "Channel 4 has abandoned a flagship reality franchise and halted its international spinoffs amid mounting scrutiny over contestant safety.",
-      "uncertainty": "It remains unknown what Channel 4 did when first alerted to the allegations, as the broadcaster has published only a summary rather than the full review findings."
+      "url": "https://www.bbc.co.uk/news/articles/c6wyrrwj9xlro?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-07T10:44:38+00:00",
+      "summary": "",
+      "why_it_matters": "",
+      "uncertainty": ""
     }
   ]
 }
