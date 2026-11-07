@@ -1,7 +1,7 @@
 {
   "date": "2026-11-07",
-  "generated_at": "2026-11-07T11:41:31.415866+00:00",
-  "mode": "feed",
+  "generated_at": "2026-11-07T12:05:46.957115+00:00",
+  "mode": "ai",
   "stories": [
     {
       "category": "World",
@@ -9,19 +9,19 @@
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-07T07:20:00+00:00",
-      "summary": "",
-      "why_it_matters": "",
-      "uncertainty": ""
+      "summary": "Lawmakers in Paraguay rejected President Santiago Peña's offer to resign, voting instead to unanimously impeach him and place him under house arrest without legal immunity. The move followed the sudden collapse of Ueno Bank, an institution tied to Peña's former private investments that left over half the country without access to their bank accounts. Vice President Pedro Alliana has taken over as president until 2028, pledging to reimburse the millions of affected savers. Peña maintains his innocence, though authorities plan to question him regarding alleged regulatory manipulation and misused pension funds.",
+      "why_it_matters": "millions of people are currently locked out of their life savings while the country abruptly changed leaders amid a massive financial and political crisis.",
+      "uncertainty": "It remains unconfirmed whether prosecutors will formally charge Peña following his scheduled questioning."
     },
     {
       "category": "World",
-      "title": "India beat New Zealand by four runs via DLS in rain-hit second ODI",
+      "title": "Nepal’s fight to rebuild after flood disaster",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/11/7/india-new-zealand-second-odi-rain-dls-method-win-four-runs?traffic_source=rss",
-      "published": "2026-11-07T10:50:54+00:00",
-      "summary": "",
-      "why_it_matters": "",
-      "uncertainty": ""
+      "url": "https://www.aljazeera.com/video/101-east/2026/11/7/nepals-fight-to-rebuild-after-flood-disaster?traffic_source=rss",
+      "published": "2026-11-07T11:30:00+00:00",
+      "summary": "A massive surge of rock and ice swept down from the Himalayas through Nepal's valleys, leaving at least 1,400 people dead and obliterating homes, villages, and bridges. More than 5,000 people remain missing as search-and-rescue teams risk their lives in the hunt for survivors. Meanwhile, aid workers are striving to provide shelter and care for traumatized families in the wake of the destruction. The disaster is the latest in a wave of severe events battering the nation as climate change speeds up.",
+      "why_it_matters": "Nepal is reeling from massive destruction and loss of life as extreme mountain disasters intensify.",
+      "uncertainty": "The fate of more than 5,000 people who remain missing is still unknown."
     },
     {
       "category": "Money",
