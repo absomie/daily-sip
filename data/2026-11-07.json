@@ -1,24 +1,24 @@
 {
   "date": "2026-11-07",
-  "generated_at": "2026-11-07T03:33:40.314802+00:00",
-  "mode": "feed",
+  "generated_at": "2026-11-07T09:43:23.359168+00:00",
+  "mode": "ai",
   "stories": [
     {
       "category": "World",
-      "title": "Elon Musk appears to signal the end of the road for Cybertruck",
+      "title": "Paraguay's president impeached and under house arrest after bank collapse",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-06T21:49:50+00:00",
-      "summary": "",
-      "why_it_matters": "",
-      "uncertainty": ""
+      "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-07T07:20:00+00:00",
+      "summary": "Paraguayan lawmakers refused to let President Santiago Peña simply resign, voting to impeach and place him under house arrest so he would lose his legal immunity. His dramatic downfall was sparked by the sudden failure of Ueno Bank, an institution tied to his past business interests that left half the nation locked out of their life savings. Peña now faces interrogation over alleged financial misconduct, while his former deputy Pedro Alliana has taken over the presidency through 2028.",
+      "why_it_matters": "half of Paraguay's population has been cut off from their money, leaving millions in financial turmoil during an unprecedented government collapse.",
+      "uncertainty": "It is not yet confirmed whether prosecutors will formally indict Peña following his questioning, though analysts report that criminal prosecution is likely."
     },
     {
       "category": "World",
-      "title": "CDC reports more than 5,000 measles cases, highest number in 35 years",
+      "title": "Will Trump strike nuclear sites again as Iran engages ‘cognitive warfare’?",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/7/cdc-reports-more-than-5000-measles-cases-highest-number-in-35-years?traffic_source=rss",
-      "published": "2026-11-07T01:55:03+00:00",
+      "url": "https://www.aljazeera.com/news/2026/11/7/will-trump-strike-nuclear-sites-again-as-iran-engages-cognitive?traffic_source=rss",
+      "published": "2026-11-07T08:45:36+00:00",
       "summary": "",
       "why_it_matters": "",
       "uncertainty": ""
@@ -35,33 +35,33 @@
     },
     {
       "category": "Money",
-      "title": "Global stocks fall amid ‘big worries over AI’ after Democrats’ midterms triumph",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph",
-      "published": "2026-11-06T21:23:54+00:00",
+      "title": "Elon Musk appears to signal the end of the road for Cybertruck",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-06T21:49:50+00:00",
       "summary": "",
       "why_it_matters": "",
       "uncertainty": ""
     },
     {
       "category": "Thailand & Asia",
-      "title": "Super El Niño effect could worsen PM2.5 next year",
+      "title": "Siam Amazing Park rides ready for Nov 19 reopening",
       "source": "Bangkok Post",
-      "url": "https://www.bangkokpost.com/thailand/general/3350229/super-el-niño-effect-could-worsen-pm25-next-year",
-      "published": "2026-11-06T22:26:00+00:00",
+      "url": "https://www.bangkokpost.com/thailand/general/3350609/siam-amazing-park-rides-ready-for-nov-19-reopening",
+      "published": "2026-11-07T08:54:00+00:00",
       "summary": "",
       "why_it_matters": "",
       "uncertainty": ""
     },
     {
       "category": "Culture",
-      "title": "Brand's barrister refers himself to regulator after report he confronted journalist",
+      "title": "Relief, tears and sadness: Married at First Sight UK cast react to show being axed",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/c8kgee9yxvn7o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-06T16:49:31+00:00",
-      "summary": "",
-      "why_it_matters": "",
-      "uncertainty": ""
+      "url": "https://www.bbc.co.uk/news/articles/crx233lx94n7o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-07T05:12:52+00:00",
+      "summary": "Former cast members who reported being raped and sexually assaulted during filming have expressed profound relief after Channel 4 decided to cancel Married at First Sight UK. The network dropped the programme following an external review triggered by a BBC Panorama investigation, though the men involved have denied all allegations. Alongside shelving an already filmed season that will now never be broadcast, Channel 4 confirmed it will no longer air international editions of the franchise.",
+      "why_it_matters": "Channel 4 has abandoned a flagship reality franchise and halted its international spinoffs amid mounting scrutiny over contestant safety.",
+      "uncertainty": "It remains unknown what Channel 4 did when first alerted to the allegations, as the broadcaster has published only a summary rather than the full review findings."
     }
   ]
 }
