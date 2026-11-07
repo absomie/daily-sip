@@ -69,6 +69,7 @@ def clean(value):
 
 
 def http_get(url, timeout=25, limit=1_500_000):
+    url = urllib.parse.quote(url, safe="%/:=&?~#+!$,;'@()*[]")  # non-ASCII chars (like n-tilde) break urllib
     req = urllib.request.Request(url, headers={'User-Agent': UA, 'Accept': '*/*'})
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         ctype = resp.headers.get('Content-Type', '')
@@ -231,37 +232,120 @@ Headline: {title}
 Article text: {evidence}'''
 
 
-def call_gemini(payload, api_key, attempts=3):
-    endpoint = f'https://generativelanguage.googleapis.com/v1beta/models/{urllib.parse.quote(MODEL)}:generateContent'
-    req = urllib.request.Request(endpoint, data=payload, method='POST', headers={
-        'Content-Type': 'application/json', 'x-goog-api-key': api_key})
-    for attempt in range(attempts):
+class GeminiError(Exception):
+    def __init__(self, code, body):
+        super().__init__(f'HTTP {code}: {body[:300]}')
+        self.code = code
+
+
+API = 'https://generativelanguage.googleapis.com/v1beta'
+_state = {'model': MODEL, 'dead': set()}
+
+
+def _request(url, api_key, payload=None):
+    req = urllib.request.Request(url, data=payload, method='POST' if payload else 'GET',
+                                 headers={'Content-Type': 'application/json', 'x-goog-api-key': api_key})
+    try:
+        with urllib.request.urlopen(req, timeout=90) as response:
+            return json.load(response)
+    except urllib.error.HTTPError as exc:
+        raise GeminiError(exc.code, exc.read().decode('utf-8', 'replace')) from None
+
+
+def discover_models(api_key):
+    """Ask the API which models this key can use: newest stable Flash first."""
+    data = _request(f'{API}/models?pageSize=200', api_key)
+    skip = ('lite', 'image', 'tts', 'live', 'audio', 'embed', 'native', 'robotics',
+            'computer', 'banana', 'omni', 'customtools', 'exp', 'thinking', 'vision')
+    found = []
+    for m in data.get('models', []):
+        name = m.get('name', '').removeprefix('models/')
+        if 'generateContent' not in m.get('supportedGenerationMethods', []):
+            continue
+        if not name.startswith('gemini-') or 'flash' not in name or any(x in name for x in skip):
+            continue
+        ver = re.match(r'gemini-(\d+(?:\.\d+)?)', name)
+        found.append(('preview' not in name, float(ver.group(1)) if ver else 0.0, name))
+    return [n for _, _, n in sorted(found, reverse=True)]
+
+
+def generate(prompt, api_key, max_tokens=2500):
+    """Call Gemini. Retries when busy; if the model name is gone (404), finds a working one."""
+    payload = json.dumps({'contents': [{'parts': [{'text': prompt}]}], 'generationConfig': {
+        'responseMimeType': 'application/json', 'temperature': 0.6, 'maxOutputTokens': max_tokens}}).encode()
+    while True:
+        model = _state['model']
         try:
-            with urllib.request.urlopen(req, timeout=60) as response:
-                return json.load(response)
-        except urllib.error.HTTPError as exc:
-            if exc.code in (429, 500, 503) and attempt < attempts - 1:
-                wait = 20 * (attempt + 1)
-                print(f'  Gemini HTTP {exc.code}, retrying in {wait}s')
-                time.sleep(wait)
-                continue
-            raise
+            for attempt in range(3):
+                try:
+                    data = _request(f'{API}/models/{urllib.parse.quote(model)}:generateContent', api_key, payload)
+                    break
+                except GeminiError as exc:
+                    if exc.code in (429, 500, 503) and attempt < 2:
+                        wait = 20 * (attempt + 1)
+                        print(f'  Gemini {exc.code}, retrying in {wait}s')
+                        time.sleep(wait)
+                        continue
+                    raise
+            break
+        except GeminiError as exc:
+            if exc.code != 404 or len(_state['dead']) >= 4:
+                raise
+            _state['dead'].add(model)
+            print(f'  model "{model}" not available ({exc}); looking for a working one')
+            options = [m for m in discover_models(api_key) if m not in _state['dead']]
+            print(f'  models this key can use: {options[:6]}')
+            if not options:
+                raise
+            _state['model'] = options[0]
+            print(f'  switching to {options[0]}')
+    text = ''.join(p.get('text', '') for c in data.get('candidates', [])
+                   for p in c.get('content', {}).get('parts', []) if not p.get('thought'))
+    text = re.sub(r'^```(?:json)?\s*|\s*```$', '', text.strip())
+    try:
+        return json.loads(text)
+    except ValueError:
+        print(f'  could not parse Gemini output: {text[:200]!r}')
+        raise
 
 
 def summarize(story, evidence, api_key):
-    prompt = PROMPT.format(category=story['category'], source=story['source'],
-                           title=story['title'], evidence=evidence)
-    config = {'responseMimeType': 'application/json', 'temperature': 0.6, 'maxOutputTokens': 1000}
-    if '2.5' in MODEL and 'flash' in MODEL:
-        config['thinkingConfig'] = {'thinkingBudget': 0}  # otherwise thinking can eat the output budget
-    payload = json.dumps({'contents': [{'parts': [{'text': prompt}]}], 'generationConfig': config}).encode()
-    data = call_gemini(payload, api_key)
-    raw = ''.join(p.get('text', '') for c in data.get('candidates', [])
-                  for p in c.get('content', {}).get('parts', []))
-    raw = re.sub(r'^```(?:json)?\s*|\s*```$', '', raw.strip())
-    parsed = json.loads(raw)
+    parsed = generate(PROMPT.format(category=story['category'], source=story['source'],
+                                    title=story['title'], evidence=evidence), api_key)
     limits = {'summary': 750, 'why_it_matters': 260, 'uncertainty': 260}
     return {k: clean(str(parsed.get(k, '')))[:n] for k, n in limits.items()}
+
+
+BRIEF_PROMPT = """You are the editor of The Daily Sip, a cozy morning digest for a busy, curious reader who is not a news junkie.
+Below are today's stories with short summaries. Decide what matters most to an everyday reader: impact on
+lives, money, safety or health, and how big and new it is, not just how dramatic it sounds.
+Return ONLY a JSON object:
+{{"big_picture": "2 short, friendly sentences on what today's news adds up to, using only the stories below",
+ "top_pick": <the story number to read if you only read one>,
+ "top_pick_why": "one friendly sentence on why that story matters",
+ "tags": [one value per story, in order, each exactly "must-know", "worth-knowing" or "just-for-fun"]}}
+Rules: use only facts from the stories; no speculation; calm tone for serious news; at most two "must-know".
+Stories:
+{stories}"""
+
+
+def make_briefing(stories, api_key):
+    lines = [f"{i + 1}. [{s['category']}] {s['title']}. {s['summary'] or '(no summary available)'}"
+             for i, s in enumerate(stories)]
+    parsed = generate(BRIEF_PROMPT.format(stories='\n'.join(lines)), api_key, max_tokens=2000)
+    tags = parsed.get('tags')
+    if isinstance(tags, list) and len(tags) == len(stories):
+        for story, tag in zip(stories, tags):
+            if tag in ('must-know', 'worth-knowing', 'just-for-fun'):
+                story['importance'] = tag
+    pick = parsed.get('top_pick')
+    pick = pick - 1 if isinstance(pick, int) and 1 <= pick <= len(stories) else None
+    if pick is not None and not stories[pick]['summary']:
+        pick = None
+    briefing = {'big_picture': clean(str(parsed.get('big_picture', '')))[:400]}
+    if pick is not None:
+        briefing.update({'top_pick': pick, 'top_pick_why': clean(str(parsed.get('top_pick_why', '')))[:300]})
+    return briefing if briefing['big_picture'] else None
 
 
 # ---------------------------------------------------------------- main
@@ -295,8 +379,18 @@ def main():
         story.pop('feed_context', None)
         story.pop('article_text', None)
 
+    briefing = None
+    if key and ai_count >= 3:
+        try:
+            briefing = make_briefing(stories, key)
+            print(f'Briefing: {briefing}')
+        except Exception as exc:
+            print(f'  WARNING: briefing failed: {type(exc).__name__}: {exc}')
+
     edition = {'date': today, 'generated_at': dt.datetime.now(dt.timezone.utc).isoformat(),
                'mode': 'ai' if ai_count else 'feed', 'stories': stories}
+    if briefing:
+        edition['briefing'] = briefing
     DATA.mkdir(exist_ok=True)
     (DATA / f'{today}.json').write_text(json.dumps(edition, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     index_path = DATA / 'index.json'
