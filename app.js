@@ -1,6 +1,7 @@
 const $ = (id) => document.getElementById(id);
 const fmtDate = (iso) => new Intl.DateTimeFormat('en-US',{dateStyle:'full',timeZone:'Asia/Bangkok'}).format(new Date(`${iso}T12:00:00+07:00`));
 function el(tag, className, value) { const node=document.createElement(tag); if(className)node.className=className;if(value!==undefined)node.textContent=value;return node; }
+const CHIP={'must-know':'Must-know','worth-knowing':'Worth knowing','just-for-fun':'Just for fun'};
 const TAGS={'must-know':' · ★ MUST-KNOW','worth-knowing':' · WORTH KNOWING','just-for-fun':' · JUST FOR FUN'};
 function renderBriefing(data){const box=$('briefing'),b=data.briefing;box.replaceChildren();if(!b||!b.big_picture){box.hidden=true;return;}box.hidden=false;box.append(el('span','eyebrow','TODAY, IN A NUTSHELL'),el('p','briefing-big',b.big_picture));const pick=data.stories[b.top_pick];if(pick&&b.top_pick_why){const p=el('p','briefing-pick');p.append(el('strong','','If you read only one thing: '),document.createTextNode(pick.title+' — '+b.top_pick_why));box.append(p);}}
 function render(data){
@@ -8,9 +9,9 @@ function render(data){
   $('updatedAt').textContent=`Updated ${new Intl.DateTimeFormat('en-US',{dateStyle:'medium',timeStyle:'short',timeZone:'Asia/Bangkok'}).format(new Date(data.generated_at))} Bangkok`;
   const grid=$('storyGrid');grid.replaceChildren();renderBriefing(data);
   data.stories.forEach((s,i)=>{
-    const card=el('article','story'+(s.importance==='must-know'?' must':''));const top=el('div','story-top');top.append(el('span','category',s.category+(TAGS[s.importance]||'')),el('span','number',String(i+1).padStart(2,'0')));
+    const card=el('article','story'+(s.importance==='must-know'?' must':''));const top=el('div','story-top');top.append(el('span','category',s.category),el('span','chip chip-'+(s.importance||'none'),CHIP[s.importance]||''));
     const title=el('h3','',s.title), desc=el('p','',s.summary||'Couldn’t get enough of this one to spill the tea reliably. Read the original report for the details.');
-    if(s.why_it_matters){const why=el('p','story-why');why.append(el('strong','','So basically… '),document.createTextNode(s.why_it_matters));card.append(top,title,desc,why);}else{card.append(top,title,desc);}
+    if(s.why_it_matters){const why=el('p','story-why');why.append(el('strong','','So basically… '),document.createTextNode(s.why_it_matters));card.append(top,title,why,desc);}else{card.append(top,title,desc);}
     if(s.uncertainty){const uncertain=el('p','story-uncertainty');uncertain.append(el('strong','','Still unconfirmed: '),document.createTextNode(s.uncertainty));card.append(uncertain);}
     const bottom=el('div','story-bottom');bottom.append(el('span','source',s.source||'News source'));
     const link=el('a','','Read original ↗');link.href=s.url;link.target='_blank';link.rel='noopener noreferrer';bottom.append(link);
