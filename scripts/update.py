@@ -239,17 +239,20 @@ class GeminiError(Exception):
 
 
 API = 'https://generativelanguage.googleapis.com/v1beta'
-_state = {'model': MODEL, 'dead': set()}
+RETRYABLE = (0, 429, 500, 502, 503, 504)   # 0 = timeout / network hiccup
+_state = {'model': MODEL, 'dead': set(), 'busy': set(), 'no_think': False}
 
 
 def _request(url, api_key, payload=None):
     req = urllib.request.Request(url, data=payload, method='POST' if payload else 'GET',
                                  headers={'Content-Type': 'application/json', 'x-goog-api-key': api_key})
     try:
-        with urllib.request.urlopen(req, timeout=90) as response:
+        with urllib.request.urlopen(req, timeout=120) as response:
             return json.load(response)
     except urllib.error.HTTPError as exc:
         raise GeminiError(exc.code, exc.read().decode('utf-8', 'replace')) from None
+    except (TimeoutError, OSError) as exc:
+        raise GeminiError(0, f'{type(exc).__name__}: {exc}') from None
 
 
 def discover_models(api_key):
@@ -269,34 +272,51 @@ def discover_models(api_key):
     return [n for _, _, n in sorted(found, reverse=True)]
 
 
-def generate(prompt, api_key, max_tokens=2500):
-    """Call Gemini. Retries when busy; if the model name is gone (404), finds a working one."""
-    payload = json.dumps({'contents': [{'parts': [{'text': prompt}]}], 'generationConfig': {
-        'responseMimeType': 'application/json', 'temperature': 0.6, 'maxOutputTokens': max_tokens}}).encode()
+def _payload(prompt, model, max_tokens):
+    cfg = {'responseMimeType': 'application/json', 'temperature': 0.6, 'maxOutputTokens': max_tokens}
+    if model.startswith('gemini-3') and not _state['no_think']:
+        cfg['thinkingConfig'] = {'thinkingLevel': 'minimal'}   # faster; dropped automatically if rejected
+    return json.dumps({'contents': [{'parts': [{'text': prompt}]}], 'generationConfig': cfg}).encode()
+
+
+def _call_with_retries(model, prompt, api_key, max_tokens):
+    for attempt in range(3):
+        try:
+            return _request(f'{API}/models/{urllib.parse.quote(model)}:generateContent', api_key,
+                            _payload(prompt, model, max_tokens))
+        except GeminiError as exc:
+            if exc.code == 400 and 'thinking' in str(exc).lower() and not _state['no_think']:
+                _state['no_think'] = True
+                print('  model rejected the thinking setting; retrying without it')
+                continue
+            if exc.code in RETRYABLE and attempt < 2:
+                wait = 15 * (attempt + 1)
+                print(f'  Gemini {exc.code or "timeout"}, retrying in {wait}s')
+                time.sleep(wait)
+                continue
+            raise
+
+
+def generate_gemini(prompt, api_key, max_tokens=2500):
+    """Call Gemini. Retries when busy; moves to another model if this one is gone or too busy."""
     while True:
         model = _state['model']
         try:
-            for attempt in range(3):
-                try:
-                    data = _request(f'{API}/models/{urllib.parse.quote(model)}:generateContent', api_key, payload)
-                    break
-                except GeminiError as exc:
-                    if exc.code in (429, 500, 503) and attempt < 2:
-                        wait = 20 * (attempt + 1)
-                        print(f'  Gemini {exc.code}, retrying in {wait}s')
-                        time.sleep(wait)
-                        continue
-                    raise
+            data = _call_with_retries(model, prompt, api_key, max_tokens)
             break
         except GeminiError as exc:
-            if exc.code != 404 or len(_state['dead']) >= 4:
+            if (exc.code != 404 and exc.code not in RETRYABLE) or len(_state['dead']) + len(_state['busy']) >= 5:
                 raise
-            _state['dead'].add(model)
-            print(f'  model "{model}" not available ({exc}); looking for a working one')
-            options = [m for m in discover_models(api_key) if m not in _state['dead']]
-            print(f'  models this key can use: {options[:6]}')
+            (_state['dead'] if exc.code == 404 else _state['busy']).add(model)
+            why = 'not available' if exc.code == 404 else 'too busy or slow right now'
+            print(f'  model "{model}" {why} ({str(exc)[:120]}); trying another')
+            try:
+                options = [m for m in discover_models(api_key) if m not in _state['dead'] | _state['busy']]
+            except GeminiError:
+                options = []
+            print(f'  other models this key can use: {options[:5]}')
             if not options:
-                raise
+                raise exc
             _state['model'] = options[0]
             print(f'  switching to {options[0]}')
     text = ''.join(p.get('text', '') for c in data.get('candidates', [])
@@ -309,9 +329,107 @@ def generate(prompt, api_key, max_tokens=2500):
         raise
 
 
+# ---------------------------------------------------------------- groq (free, OpenAI-compatible)
+GROQ = 'https://api.groq.com/openai/v1'
+GROQ_PREFERRED = ('llama-3.3-70b-versatile', 'openai/gpt-oss-120b', 'openai/gpt-oss-20b', 'llama-3.1-8b-instant')
+_groq = {'model': os.getenv('GROQ_MODEL', '').strip() or None, 'dead': set()}
+
+
+def _groq_request(path, api_key, body=None):
+    req = urllib.request.Request(GROQ + path, data=json.dumps(body).encode() if body else None,
+                                 method='POST' if body else 'GET',
+                                 headers={'Authorization': f'Bearer {api_key}', 'Content-Type': 'application/json',
+                                          'User-Agent': 'daily-sip/3.0'})   # default urllib agent gets blocked
+    try:
+        with urllib.request.urlopen(req, timeout=90) as response:
+            return json.load(response)
+    except urllib.error.HTTPError as exc:
+        err = GeminiError(exc.code, exc.read().decode('utf-8', 'replace'))
+        err.retry_after = exc.headers.get('retry-after')
+        raise err from None
+    except (TimeoutError, OSError) as exc:
+        raise GeminiError(0, f'{type(exc).__name__}: {exc}') from None
+
+
+def pick_groq_model(api_key):
+    ids = [m['id'] for m in _groq_request('/models', api_key).get('data', [])
+           if m.get('active', True) and m['id'] not in _groq['dead']]
+    for want in GROQ_PREFERRED:
+        if want in ids:
+            return want
+    skip = ('whisper', 'guard', 'tts', 'playai', 'orpheus', 'embed', 'compound', 'safeguard', 'allam')
+    rest = sorted(i for i in ids if not any(x in i for x in skip))
+    if not rest:
+        raise GeminiError(404, 'no usable Groq model found')
+    return rest[0]
+
+
+def generate_groq(prompt, api_key, max_tokens=1500):
+    for attempt in range(3):
+        if not _groq['model']:
+            _groq['model'] = pick_groq_model(api_key)
+            print(f"  using Groq model {_groq['model']}")
+        body = {'model': _groq['model'], 'temperature': 0.6, 'max_tokens': max_tokens,
+                'response_format': {'type': 'json_object'}, 'messages': [{'role': 'user', 'content': prompt}]}
+        try:
+            data = _groq_request('/chat/completions', api_key, body)
+            break
+        except GeminiError as exc:
+            if exc.code in (404, 400) and 'model' in str(exc).lower() and attempt < 2:
+                print(f"  Groq model {_groq['model']} unusable ({str(exc)[:100]}); picking another")
+                _groq['dead'].add(_groq['model'])
+                _groq['model'] = None
+                continue
+            if exc.code in RETRYABLE and attempt < 2:
+                try:
+                    wait = min(int(float(getattr(exc, 'retry_after', None) or 0)) or 15 * (attempt + 1), 60)
+                except ValueError:
+                    wait = 15 * (attempt + 1)
+                print(f'  Groq {exc.code or "timeout"}, retrying in {wait}s')
+                time.sleep(wait)
+                continue
+            raise
+    text = (data.get('choices') or [{}])[0].get('message', {}).get('content', '') or ''
+    text = re.sub(r'^```(?:json)?\s*|\s*```$', '', text.strip())
+    try:
+        return json.loads(text)
+    except ValueError:
+        print(f'  could not parse Groq output: {text[:200]!r}')
+        raise
+
+
+# ---------------------------------------------------------------- provider chain
+_bad, _announced = set(), set()
+
+
+def providers():
+    """Providers with a key, in order (default: Groq first, Gemini as backup). Override: AI_PROVIDERS=gemini,groq"""
+    keys = {'groq': os.getenv('GROQ_API_KEY', '').strip(), 'gemini': os.getenv('GEMINI_API_KEY', '').strip()}
+    order = [x.strip() for x in os.getenv('AI_PROVIDERS', 'groq,gemini').split(',')]
+    return [(n, keys[n]) for n in order if keys.get(n) and n not in _bad]
+
+
+def generate(prompt, api_key=None, max_tokens=2500):
+    last = None
+    for name, k in providers():
+        try:
+            result = (generate_groq if name == 'groq' else generate_gemini)(prompt, k, max_tokens)
+            if name not in _announced:
+                _announced.add(name)
+                print(f'  (writing with {name})')
+            return result
+        except Exception as exc:
+            last = exc
+            if isinstance(exc, GeminiError) and exc.code in (401, 403):
+                _bad.add(name)
+                print(f'  {name} key was rejected; skipping it for the rest of this run')
+            print(f'  {name} failed ({type(exc).__name__}: {str(exc)[:140]}); trying the next provider')
+    raise last or RuntimeError('no AI provider configured (add GROQ_API_KEY or GEMINI_API_KEY)')
+
+
 def summarize(story, evidence, api_key):
     parsed = generate(PROMPT.format(category=story['category'], source=story['source'],
-                                    title=story['title'], evidence=evidence), api_key)
+                                    title=story['title'], evidence=evidence[:5500]), api_key)
     limits = {'summary': 750, 'why_it_matters': 260, 'uncertainty': 260}
     return {k: clean(str(parsed.get(k, '')))[:n] for k, n in limits.items()}
 
@@ -351,18 +469,38 @@ def make_briefing(stories, api_key):
 # ---------------------------------------------------------------- main
 def main():
     today = dt.datetime.now(TZ).date().isoformat()
+    # Re-running the same day must not wipe summaries we already have (and wastes free-tier quota).
+    edition_path = DATA / f'{today}.json'
+    old_edition, kept = None, {}
+    if edition_path.exists():
+        try:
+            old_edition = json.loads(edition_path.read_text(encoding='utf-8'))
+            kept = {x['url']: x for x in old_edition.get('stories', []) if x.get('summary')}
+        except (ValueError, KeyError, TypeError):
+            old_edition = None
     slots = []
     for category, feed_urls, fallback in SLOTS:
         print(f'{category}:')
         slots.append((category, fetch_slot(feed_urls, fallback)))
+    slots = [(cat, sorted(cands, key=lambda x: x['url'] not in kept)) for cat, cands in slots]
     stories = choose(slots)
     if len(stories) < 3:
         raise SystemExit('Insufficient news feeds; previous edition preserved.')
 
-    key = os.getenv('GEMINI_API_KEY', '').strip()
+    key = 'on' if providers() else ''   # any provider with a key enables AI summaries
     ai_count = 0
     for story in stories:
         story['summary'] = story['why_it_matters'] = story['uncertainty'] = ''
+        if story['url'] in kept:
+            prev = kept[story['url']]
+            story.update({k: prev.get(k, '') for k in ('summary', 'why_it_matters', 'uncertainty')})
+            if prev.get('importance'):
+                story['importance'] = prev['importance']
+            story.pop('feed_context', None)
+            story['_ev'] = ''
+            ai_count += 1
+            print(f"- kept earlier summary: {story['title'][:60]}")
+            continue
         story['article_text'] = fetch_article_text(story['url'])
         evidence = build_evidence(story)
         print(f"- {story['source']}: {story['title'][:70]} (evidence {len(evidence)} chars)")
@@ -376,11 +514,32 @@ def main():
             time.sleep(GEMINI_PAUSE_SECONDS)
         elif key:
             print('  not enough article text; linking out instead of guessing')
+        story['_ev'] = evidence if len(evidence) >= MIN_EVIDENCE_CHARS else ''
         story.pop('feed_context', None)
         story.pop('article_text', None)
 
+    if key:  # second chance for stories the AI couldn't finish (busy servers, timeouts)
+        missed = [x for x in stories if x.get('_ev') and not x['summary']]
+        if missed:
+            print(f'Retrying {len(missed)} story(ies) after a short break...')
+            _state['busy'].clear()
+            time.sleep(30)
+            for story in missed:
+                try:
+                    story.update(summarize(story, story['_ev'], key))
+                except Exception as exc:
+                    print(f'  WARNING: retry failed for {story["title"][:50]!r}: {type(exc).__name__}: {exc}')
+                time.sleep(GEMINI_PAUSE_SECONDS)
+        ai_count = sum(1 for x in stories if x['summary'])
+    for story in stories:
+        story.pop('_ev', None)
+
     briefing = None
-    if key and ai_count >= 3:
+    if old_edition and old_edition.get('briefing') and \
+            [x['url'] for x in stories] == [x['url'] for x in old_edition.get('stories', [])]:
+        briefing = old_edition['briefing']
+        print('Briefing: kept earlier one')
+    elif key and ai_count >= 3:
         try:
             briefing = make_briefing(stories, key)
             print(f'Briefing: {briefing}')
@@ -399,7 +558,7 @@ def main():
     index_path.write_text(json.dumps(dates, indent=2) + '\n', encoding='utf-8')
     print(f'Published {today} with {len(stories)} stories; AI summaries: {ai_count}/{len(stories)}')
     if key and ai_count == 0:
-        print('WARNING: No AI summaries generated. Check Gemini model, quota, and key access.')
+        print('WARNING: No AI summaries generated. Check the API keys, models and quota.')
 
 
 if __name__ == '__main__':
