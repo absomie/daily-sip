@@ -1,6 +1,6 @@
 {
   "date": "2026-11-08",
-  "generated_at": "2026-11-08T03:46:36.571359+00:00",
+  "generated_at": "2026-11-08T08:35:39.309222+00:00",
   "mode": "ai",
   "stories": [
     {
@@ -8,10 +8,11 @@
       "title": "What we know so far after Krakow gun attack",
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-08T01:47:41+00:00",
-      "summary": "",
-      "why_it_matters": "",
-      "uncertainty": ""
+      "published": "2026-11-08T07:52:33+00:00",
+      "summary": "Police searching the home of a gunman who opened fire in Krakow's central square discovered the bodies of his parents and sister, bringing the total death toll connected to the tragedy to nine. Authorities say the 25-year-old Polish suspect drove into the crowded tourist area and fired at random people before armed officers shot and detained him within minutes. Six bystanders died at the scene and 16 people were hospitalized with injuries, including several foreign tourists and two police officers. Polish Prime Minister Donald Tusk described the assault as an unprecedented act of terrorism for the country, and city officials have declared a period of mourning.",
+      "why_it_matters": "Poland is confronting a rare and devastating mass shooting that officials believe was motivated by far-right ideology.",
+      "uncertainty": "Authorities have not publicly released the suspect's name or confirmed the identities of two victims killed in the square.",
+      "importance": "must-know"
     },
     {
       "category": "World",
@@ -21,7 +22,8 @@
       "published": "2026-11-08T03:04:28+00:00",
       "summary": "Winning on the world stage wasn't enough to save Egypt's national football coach Hossam Hassan from off-pitch fallout. The Egyptian Football Association abruptly fired Hassan despite him leading the squad to a historic Round of 16 finish at the 2026 World Cup. The federation cut his promising run short after his public marital troubles sparked serious worries about the team's reputation.",
       "why_it_matters": "even major tournament triumphs cannot protect a top coach when public personal drama threatens the team's image.",
-      "uncertainty": ""
+      "uncertainty": "",
+      "importance": "just-for-fun"
     },
     {
       "category": "Money",
@@ -31,7 +33,8 @@
       "published": "2026-11-07T23:02:35+00:00",
       "summary": "The wild craze for Labubu—the quirky, fuzzy monster toys that fans fought over and spent small fortunes collecting—is officially losing its grip, with parent company Pop Mart seeing global sales drop by up to 50% in the three months through September. The hit was especially brutal in the US, where revenue plunged by at least 70% as the brand boosted production and stripped away the thrill of scarce, mystery \"blind boxes.\" Now, hardcore collectors and influencers are watching their views dry up and moving on, leaving Pop Mart's shares down more than 50% from last year's high.",
       "why_it_matters": "viral collectible crazes can evaporate the second rare items flood store shelves, leaving hype-driven companies scrambling to prove they are more than just a fleeting moment.",
-      "uncertainty": "Pop Mart did not respond to questions about its plummeting sales, leaving it unconfirmed how the company plans to address the downturn or whether an upcoming film can keep fans interested."
+      "uncertainty": "Pop Mart did not respond to questions about its plummeting sales, leaving it unconfirmed how the company plans to address the downturn or whether an upcoming film can keep fans interested.",
+      "importance": "worth-knowing"
     },
     {
       "category": "Money",
@@ -39,9 +42,10 @@
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/cm8xznl0n1q4o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-08T00:37:45+00:00",
-      "summary": "",
-      "why_it_matters": "",
-      "uncertainty": ""
+      "summary": "Nintendo just dropped its long-rumored remake of the 1998 classic *Ocarina of Time*, sticking closely to the original design rather than starting from scratch. The gaming giant refreshed the visuals with a slightly more cartoonish style and overhauled notoriously frustrating features, making the infamous Water Temple much easier with modern dual-stick camera controls and quick item swapping. While online creators are praising the cozy attention to detail, returning fans might find their muscle memory makes solving familiar puzzles a breeze.",
+      "why_it_matters": "Nintendo modernized one of the highest-rated video games in history with smoother controls and fresh graphics while keeping the original experience intact.",
+      "uncertainty": "",
+      "importance": "just-for-fun"
     },
     {
       "category": "Thailand & Asia",
@@ -51,7 +55,8 @@
       "published": "2026-11-07T22:33:00+00:00",
       "summary": "A massive convoy aiming for 1,000 vehicles is rolling toward Bangkok to push for cheaper fuel and a crackdown on drug trafficking. Led by a southern village headman, this group has already collected more than 1.6 million baht in donations on its cross-country trek. Two other activist groups are also descending on Government House on Monday to voice their own local grievances, including opposition to a reservoir project. To brace for the crowds, police have blocked off nearby roads and banned public gatherings within 50 metres of the building through November 20.",
       "why_it_matters": "Bangkok drivers are in for major disruption as multiple activist groups converge on Government House to demand a 10-baht cut to fuel prices and policy changes.",
-      "uncertainty": "It is not yet clear whether the main protest convoy will actually hit its target of 1,000 vehicles."
+      "uncertainty": "It is not yet clear whether the main protest convoy will actually hit its target of 1,000 vehicles.",
+      "importance": "must-know"
     },
     {
       "category": "Culture",
@@ -59,9 +64,15 @@
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/c6rmyymw1zz1o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-07T13:03:57+00:00",
-      "summary": "",
-      "why_it_matters": "",
-      "uncertainty": ""
+      "summary": "Knicks point guard Tyler Kolek stirred up major drama during a gaming livestream by calling Taylor Swift the team's \"fakest celebrity fan.\" Kolek claimed her court-side appearances were \"a little performative,\" guessing she just wanted to be seen rather than actually follow the game. However, the Knicks organization quickly stepped in on Friday to shut down the shade, officially defending the pop star's long-standing support and deep history with Madison Square Garden.",
+      "why_it_matters": "the Knicks management is standing by their pop superstar supporter, even when their own players throw shade.",
+      "uncertainty": "Very few details have been publicly released regarding Swift's recent wedding to Travis Kelce at Madison Square Garden.",
+      "importance": "just-for-fun"
     }
-  ]
+  ],
+  "briefing": {
+    "big_picture": "Today's digest covers significant public safety and local news alongside shifting consumer trends and entertainment updates. Polish authorities are investigating a tragic shooting in Krakow, while vehicle rallies and road closures are set for Bangkok.",
+    "top_pick": 0,
+    "top_pick_why": "It details a major public safety crisis in Krakow's central square that claimed nine lives and prompted official citywide mourning."
+  }
 }
