@@ -1,0 +1,141 @@
+{
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T03:50:52.069503+00:00",
+  "mode": "ai",
+  "stories": [
+    {
+      "category": "Politics & World",
+      "title": "Cruise ship pianist rescued from sea after nine hours in Pacific Ocean",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/ck1wvrrgln13o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-09T02:50:13+00:00",
+      "summary": "Unusually warm ocean waters helped a cruise ship pianist survive nine hours treading water in the Pacific Ocean. Two fishermen spotted the crew member floating roughly 20 miles off the California coast on Friday. He was brought to shore and taken to a hospital in stable condition.",
+      "why_it_matters": "Warm sea temperatures and alert fishermen helped save a cruise ship worker from an ocean tragedy.",
+      "uncertainty": "Authorities have not publicly identified the man or explained how he fell overboard.",
+      "background": "El Niño is a climate pattern that causes Pacific Ocean water temperatures to rise above average. While spending hours in open ocean water is typically fatal, these warmer sea temperatures can slow down hypothermia.",
+      "jargon": [
+        {
+          "term": "El Niño",
+          "meaning": "A climate pattern involving the warming of Pacific Ocean waters above normal temperatures."
+        },
+        {
+          "term": "Good Samaritan",
+          "meaning": "A bystander who voluntarily steps in to help someone in distress."
+        }
+      ],
+      "views": [],
+      "importance": "just-for-fun"
+    },
+    {
+      "category": "Politics & World",
+      "title": "Pope Leo delivers stinging rebuke of Milei’s austerity measures during Argentina visit",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/09/pope-leo-argentina-visit-speech-javier-milei-austerity",
+      "published": "2026-11-09T02:11:25+00:00",
+      "summary": "Pope Leo XIV publicly criticized Argentina's president over severe spending cuts targeting vulnerable citizens. He argued that economic growth must serve the people, defending pensioners and disabled groups. The historic trip marks the first papal visit to the divided nation in nearly four decades.",
+      "why_it_matters": "A world religious leader is directly confronting a president's economic policies to protect vulnerable citizens.",
+      "uncertainty": "It remains unclear whether the pontiff's visit will successfully bridge Argentina's deep political divisions.",
+      "background": "Argentina's leader took office pledging to fix an ailing economy by sharply reducing public welfare spending. These severe budget cuts have created intense national division, while church membership in the country has steadily declined.",
+      "jargon": [
+        {
+          "term": "austerity measures",
+          "meaning": "Government policies that sharply cut public spending to control debt and economic distress."
+        }
+      ],
+      "views": [
+        "Supporters say the president's spending cuts have successfully reduced runaway inflation.",
+        "Critics say the government's budget cuts unacceptably harm vulnerable people like pensioners and disabled citizens."
+      ],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Tech",
+      "title": "Government 'looking seriously' at banning under-16s from Vinted and eBay",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cmzxjvpqrjxro?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-08T15:37:25+00:00",
+      "summary": "UK ministers are considering adding second-hand shopping platforms like Vinted and eBay to an upcoming under-16 ban. Officials fear messaging features on reselling apps could allow strangers to contact and groom children. The government's broader restriction on youth accessing major online platforms takes effect next March.",
+      "why_it_matters": "the UK might block teens from using resale apps alongside traditional social media.",
+      "uncertainty": "A complete list of restricted platforms and details on how age checks will be enforced remain unconfirmed.",
+      "background": "The UK government previously announced plans to restrict young people from accessing major social media platforms to enhance child safety online. The policy focuses on services that allow public social interaction and private messaging with strangers.",
+      "jargon": [
+        {
+          "term": "scope creep",
+          "meaning": "The gradual expansion of a law or policy beyond its original intended focus."
+        }
+      ],
+      "views": [],
+      "importance": "must-know"
+    },
+    {
+      "category": "Money",
+      "title": "Nvidia launches investigation into CEO's affair with suspected Chinese spy",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c3dxw10rjn9no?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-09T00:50:06+00:00",
+      "summary": "",
+      "why_it_matters": "",
+      "uncertainty": "",
+      "background": "",
+      "jargon": [],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Money",
+      "title": "Chinese carmaker BYD’s offices in Netherlands raided over JLR ‘copycat car’ claim",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/nov/08/chinese-carmaker-byd-offices-raided-netherlands-land-rover-copycat-claim",
+      "published": "2026-11-08T16:50:58+00:00",
+      "summary": "Court bailiffs recently raided Chinese automaker BYD’s Dutch offices to seize digital records for Jaguar Land Rover. The luxury carmaker suspects BYD copied its iconic Land Rover Defender to create a far cheaper rival. JLR reportedly sought the files to prevent evidence destruction before a Dutch court showdown.",
+      "why_it_matters": "Legacy automakers are fighting back legally as cheaper Chinese rivals introduce lookalike models abroad.",
+      "uncertainty": "It remains unconfirmed whether BYD actually reverse-engineered any of JLR's technology.",
+      "background": "Automakers invest heavily to protect their vehicle designs and technology from unauthorized copying. In recent years, several Chinese carmakers have introduced budget-friendly vehicles with designs strikingly similar to European luxury models.",
+      "jargon": [
+        {
+          "term": "intellectual property",
+          "meaning": "Legal rights that protect unique designs, brand identity, or inventions from being copied without permission."
+        },
+        {
+          "term": "reverse-engineered",
+          "meaning": "Taking apart a finished product to figure out how it was built and recreate its technology."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Thailand & Asia",
+      "title": "Nvidia announces probe into Huang amid reports China spied on him",
+      "source": "Bangkok Post",
+      "url": "https://www.bangkokpost.com/world/3351436/nvidia-announces-probe-into-huang-amid-reports-china-spied-on-him",
+      "published": "2026-11-09T02:05:00+00:00",
+      "summary": "Nvidia launched an internal investigation into CEO Jensen Huang after he admitted to having an affair. US intelligence officials claim the woman involved was secretly working for Chinese intelligence. Nvidia stated there is no indication that national security or corporate secrets were compromised.",
+      "why_it_matters": "A major tech scandal could trigger government scrutiny and create risks for the AI industry.",
+      "uncertainty": "It remains unclear whether national security or Nvidia secrets were actually compromised.",
+      "background": "Nvidia is a major technology company that manufactures specialized silicon chips used in artificial intelligence. The United States currently restricts selling high-end chips to China to maintain a technological advantage.",
+      "jargon": [
+        {
+          "term": "Silicon chips",
+          "meaning": "Tiny electronic components used to process data and power modern computers and artificial intelligence."
+        },
+        {
+          "term": "Board probe",
+          "meaning": "An internal investigation carried out by a company's independent governing board."
+        }
+      ],
+      "views": [],
+      "importance": "must-know"
+    }
+  ],
+  "briefing": {
+    "big_picture": "Today's updates cover potential new digital safety rules for young shoppers alongside major corporate and world news. Readers will also find an incredible story of ocean survival off the coast of California.",
+    "top_pick": 2,
+    "top_pick_why": "This story matters to families as UK officials consider restricting under-16s from popular reselling apps over online safety concerns."
+  },
+  "learn": {
+    "term": "Austerity measures",
+    "explainer": "Austerity measures are economic policies implemented by governments to cut spending and reduce national debt. Think of it like a household that has overspent and decides to cancel subscriptions, cut back on groceries, and skip vacations to pay off a credit card. When a country adopts austerity, its government typically trims public services, freezes public-sector wages, or reduces funding for social programs to balance its budget.",
+    "why_in_news": "This term is in the news following public debates over severe spending cuts implemented by political leaders in Argentina."
+  }
+}
