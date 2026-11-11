@@ -1,0 +1,137 @@
+{
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T03:41:43.300120+00:00",
+  "mode": "ai",
+  "stories": [
+    {
+      "category": "Politics & World",
+      "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-11T03:26:42+00:00",
+      "summary": "A rebel Republican tried to impeach Defence Secretary Pete Hegseth over an unauthorized war in Iran. House lawmakers effectively killed the effort on Tuesday in a narrow 211 to 204 vote. However, Democrats take control in January and could revive the push against the Pentagon chief.",
+      "why_it_matters": "Hegseth dodged removal for now, but incoming Democrats could restart the fight next month.",
+      "uncertainty": "It remains unclear how long Hegseth will keep his post or whether Democrats will renew impeachment efforts.",
+      "background": "Impeachment is a constitutional process used by Congress to charge and potentially remove top federal officials for misconduct. Under the United States legal system, lawmakers also hold the official authority to approve acts of war.",
+      "jargon": [
+        {
+          "term": "articles of impeachment",
+          "meaning": "The formal list of charges of misconduct filed against an official by the House."
+        },
+        {
+          "term": "extrajudicial killings",
+          "meaning": "Deaths caused by government forces outside of any legal trial or judicial process."
+        }
+      ],
+      "views": [
+        "Critics say Hegseth broke the law by fighting an unauthorized war in Iran and overseeing unlawful strikes on boats.",
+        "Supporters say Hegseth is lawfully leading the military and call the impeachment attempt a disruptive political stunt."
+      ],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Politics & World",
+      "title": "El Salvador fires missiles on Haitian gang hideout",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/el-salvador-fires-missiles-on-haitian-gang-hideout?traffic_source=rss",
+      "published": "2026-11-11T03:00:23+00:00",
+      "summary": "Days after a Haitian gang leader requested UN talks, El Salvador's military launched rockets at his compound. The strike targeted a site allegedly tied to the head of the 400 Mawozo gang. El Salvador currently has 2,500 troops stationed in Haiti to help fight local gangs.",
+      "why_it_matters": "Foreign military involvement is intensifying against violent gangs controlling key parts of Haiti.",
+      "uncertainty": "It is unconfirmed whether the targeted compound truly belonged to the gang's leader.",
+      "background": "Haiti has been dealing with widespread violence and instability caused by heavily armed criminal gangs. The government has relied on international security assistance to push back against these groups.",
+      "jargon": [
+        {
+          "term": "Compound",
+          "meaning": "A fenced or walled area containing a cluster of buildings."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Tech",
+      "title": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-10T22:52:15+00:00",
+      "summary": "Nvidia's chief executive admitted to having an affair with a suspected Chinese spy. The tech giant hired a prominent law firm to investigate while the FBI conducts another inquiry. The fallout has already erased $500bn from the artificial intelligence powerhouse's market value.",
+      "why_it_matters": "The leader of the world's top AI chipmaker faces serious national security scrutiny.",
+      "uncertainty": "It remains unclear whether investigators will be able to interview the alleged spy.",
+      "background": "Nvidia designs specialized computer chips that power artificial intelligence tools, making it one of the world's most valuable companies. Because this technology is so crucial, these chips have become a major priority for American national security.",
+      "jargon": [
+        {
+          "term": "subpoena",
+          "meaning": "A formal legal order forcing someone to attend and give evidence."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Money",
+      "title": "Oil prices fall to lowest since August as Trump says Iran war is ‘effectively over’",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/nov/10/oil-prices-fall-donald-trump-iran-war-ftse-100-markets",
+      "published": "2026-11-10T10:28:47+00:00",
+      "summary": "Global crude oil prices tumbled below $90 after Donald Trump suggested war with Iran was effectively over. The remarks eased supply fears, triggering a broad stock rally that boosted major airline shares. Lower wholesale energy costs could also soon deliver cheaper petrol at the pump for drivers.",
+      "why_it_matters": "Falling energy prices help cool inflation and can lead to lower fuel bills for drivers.",
+      "uncertainty": "It is unclear whether upcoming inflation data will sustain this market rally or keep borrowing costs high.",
+      "background": "Tensions in oil-producing regions often threaten global crude supplies, pushing energy prices sharply higher for businesses and consumers. When the risk of conflict recedes, fears of fuel shortages diminish and market prices tend to fall.",
+      "jargon": [
+        {
+          "term": "Brent crude",
+          "meaning": "A major global trading benchmark used to set the price of international oil."
+        },
+        {
+          "term": "Disinflation",
+          "meaning": "A period when prices are still rising, but at a slower pace."
+        }
+      ],
+      "views": [],
+      "importance": "must-know"
+    },
+    {
+      "category": "Money",
+      "title": "How Paraguay's banking crisis ousted a president and left millions broke – explainer",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/video/2026/nov/10/how-paraguays-banking-crisis-ousted-a-president-and-left-millions-broke-explainer",
+      "published": "2026-11-10T18:55:12+00:00",
+      "summary": "Over half of Paraguay's population suddenly lost access to their bank accounts right after payday. The freeze pushed the nation's financial system to the brink and sparked violent street protests. Lawmakers swiftly impeached President Santiago Peña and placed him under house arrest.",
+      "why_it_matters": "A sudden banking meltdown can rapidly destroy public trust and bring down an entire government.",
+      "uncertainty": "",
+      "background": "Banks depend entirely on public trust to function, so losing access to savings can trigger instant panic. When everyday financial systems fail nationwide, the resulting public anger often moves directly toward the country's top leadership.",
+      "jargon": [
+        {
+          "term": "Impeachment",
+          "meaning": "A constitutional process where lawmakers charge and can remove a high-ranking official from power."
+        }
+      ],
+      "views": [],
+      "importance": "must-know"
+    },
+    {
+      "category": "Thailand & Asia",
+      "title": "As Chinese EVs reshape Thailand's car industry, higher taxes bring new uncertainty",
+      "source": "CNA",
+      "url": "https://www.channelnewsasia.com/asia/thailand-ev-prices-chinese-imports-6538306",
+      "published": "2026-11-10T22:00:00+00:00",
+      "summary": "Thailand is hiking taxes on imported electric vehicles from 10 per cent to 35 per cent. The sharp increase aims to protect domestic factories and push foreign automakers to build locally. However, analysts caution the policy could drive up showroom prices and shrink choices for shoppers.",
+      "why_it_matters": "Cheaper green rides might get pricier unless global carmakers start building them inside Thailand.",
+      "uncertainty": "It is still uncertain whether brands will build local factories or simply exit the Thai market.",
+      "background": "Thailand has long been Southeast Asia's primary manufacturing hub for traditional combustion-engine automobiles. As drivers pivot toward battery-powered cars, the country wants to preserve its industrial edge by hosting new electric assembly plants.",
+      "jargon": [
+        {
+          "term": "excise tax",
+          "meaning": "A special tax charged by a government on specific goods, such as imported cars."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    }
+  ],
+  "briefing": {
+    "big_picture": "Global markets are seeing notable shifts today as tumbling crude oil prices bring the potential for cheaper petrol at the pump. Elsewhere, nations and major industries are navigating dramatic changes, from sudden banking turmoil in Paraguay to steep new electric vehicle taxes in Thailand.",
+    "top_pick": 3,
+    "top_pick_why": "Lower crude oil costs could soon provide welcome everyday relief by bringing down prices at the petrol pump."
+  }
+}
