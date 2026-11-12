@@ -1,0 +1,135 @@
+{
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T03:47:59.271572+00:00",
+  "mode": "ai",
+  "stories": [
+    {
+      "category": "Politics & World",
+      "title": "Australian teen missing in bush for six days rescued alive",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/ckvg25zmppglo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-12T02:40:18+00:00",
+      "summary": "After surviving six days in freezing wilderness, a lost teenager was rescued with just a few scratches. The 17-year-old wisely stayed in one spot until search crews located him east of Melbourne. Rescuers winched him to safety and immediately handed him water and a doughnut.",
+      "why_it_matters": "Staying put during a wilderness emergency can make the difference in a successful search operation.",
+      "uncertainty": "It is still unclear how the teenager originally got separated from his friend.",
+      "background": "Australian bushland can be hazardous for campers due to dense vegetation and severe overnight cold. Emergency crews often deploy specialized teams of tracking dogs, divers, and helicopters to search remote areas.",
+      "jargon": [
+        {
+          "term": "bushland",
+          "meaning": "Dense, wild land covered in shrubs and trees, common in Australia."
+        },
+        {
+          "term": "winched",
+          "meaning": "Pulled up into an aircraft using a heavy cable and mechanical hoist."
+        }
+      ],
+      "views": [],
+      "importance": "just-for-fun"
+    },
+    {
+      "category": "Politics & World",
+      "title": "Scott Colom claims victory as he addresses supporters in Mississippi following his historic Senate victory – live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/11/donald-trump-pete-hegseth-impeachment-democrats-republicans-arlington-latest-news-updates",
+      "published": "2026-11-12T03:27:53+00:00",
+      "summary": "Scott Colom pulled off a historic upset by winning a United States Senate seat in deep-red Mississippi. The race was officially called for Colom eight days after midterm election day. He is now celebrating as the state's first Black senator since the Reconstruction era.",
+      "why_it_matters": "A historic political shift occurred as a traditionally conservative Southern state elected a new senator.",
+      "uncertainty": "",
+      "background": "Senate races determine who represents an entire state in the federal government. Mississippi has traditionally voted for conservative candidates, making a victory by an opposing party notable.",
+      "jargon": [
+        {
+          "term": "Reconstruction",
+          "meaning": "The period in American history immediately following the Civil War when Southern states were reorganized."
+        }
+      ],
+      "views": [
+        "Supporters say Colom will be a dedicated partner in Washington who works for all Mississippians."
+      ],
+      "importance": "must-know"
+    },
+    {
+      "category": "Tech",
+      "title": "New Indian mega library rocked by scandal over 'AI-generated books'",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c54gne3plvrxo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-11T11:33:24+00:00",
+      "summary": "An Indian court has ordered an anti-corruption probe into a new library accused of buying hundreds of AI-generated books. A famous author noticed books with false information, wrong author credits, and inflated prices. Authorities have already removed over 500 suspicious titles from state libraries.",
+      "why_it_matters": "AI tools make publishing fake books quick and cheap, creating major headaches for public libraries.",
+      "uncertainty": "It remains unclear whether AI was actually used to produce any of the disputed books.",
+      "background": "Artificial intelligence tools can generate entire books quickly, making it easier to publish counterfeit or inaccurate text. Public libraries rely on multi-level review processes to ensure their collections remain authentic.",
+      "jargon": [
+        {
+          "term": "ISBN",
+          "meaning": "A unique code assigned to published books for identification and cataloging."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Money",
+      "title": "Poundland set for more time to secure a rescue deal as emergency talks continue",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-12T00:49:05+00:00",
+      "summary": "",
+      "why_it_matters": "",
+      "uncertainty": "",
+      "background": "",
+      "jargon": [],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Money",
+      "title": "Nvidia hires leading US law firm to investigate Jensen Huang’s relationship",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/technology/2026/nov/11/nvidia-hires-leading-us-law-firm-to-investigate-jensen-huang-relationship",
+      "published": "2026-11-11T21:59:07+00:00",
+      "summary": "Nvidia’s CEO Jensen Huang admitted to marital infidelity following reports linking him to an alleged Chinese spy. The tech giant hired a prominent law firm to independently investigate the potential intelligence threat. Company stock dropped sharply as reports surfaced of a second affair with an executive.",
+      "why_it_matters": "A tech giant's leadership and security are in doubt amid high-stakes espionage and personal scandal.",
+      "uncertainty": "It remains unconfirmed whether Nvidia's board will officially remove Huang as chief executive.",
+      "background": "Nvidia is a major technology firm best known for producing microchips that power modern computing. When executives face major misconduct allegations, corporate boards frequently launch independent legal probes to protect the business.",
+      "jargon": [
+        {
+          "term": "Poison pill",
+          "meaning": "A corporate strategy used to prevent hostile takeovers by making stock acquisitions far more expensive."
+        },
+        {
+          "term": "Market cap",
+          "meaning": "The total dollar value of all shares issued by a publicly traded company."
+        }
+      ],
+      "views": [],
+      "importance": "must-know"
+    },
+    {
+      "category": "Thailand & Asia",
+      "title": "Why India and Pakistan's stock markets are rallying after the US midterms",
+      "source": "CNA",
+      "url": "https://www.channelnewsasia.com/asia/why-india-and-pakistans-stock-markets-are-rallying-after-us-midterms-6544681",
+      "published": "2026-11-12T03:22:23+00:00",
+      "summary": "Global oil prices plummeted nearly 12 percent right after the recent US midterm elections. That sharp drop triggered a dramatic stock market surge across both India and Pakistan. Excited investors hope softer political tensions will permanently lower fuel costs and spur economic growth.",
+      "why_it_matters": "Cheaper imported oil gives struggling Asian economies a much-needed financial breather.",
+      "uncertainty": "Analysts remain unsure if these stock gains reflect a real economic turnaround or brief optimism.",
+      "background": "Both India and Pakistan rely heavily on imported oil to power their daily economies. When global energy prices rise, domestic inflation surges, straining local businesses and everyday households.",
+      "jargon": [
+        {
+          "term": "Benchmark index",
+          "meaning": "A standard trackable list of stock prices used to measure a market's overall health."
+        },
+        {
+          "term": "Remittances",
+          "meaning": "Money sent back home to families by people working in foreign countries."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    }
+  ],
+  "briefing": {
+    "big_picture": "Today's news ranges from historic political developments in the U.S. to market surges in South Asia driven by falling oil prices. Readers can also catch up on tech industry investigations and a heartwarming wilderness rescue.",
+    "top_pick": 1,
+    "top_pick_why": "Scott Colom pulled off a major political upset to become Mississippi's first Black senator since the Reconstruction era."
+  }
+}
