@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T03:55:50.764049+00:00",
+  "mode": "ai",
+  "stories": [
+    {
+      "category": "Politics & World",
+      "title": "Australian footballers will not be charged after hotel incident, police say",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/ckregjwr7njqo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-13T03:02:54+00:00",
+      "summary": "Four top Australian rules football players will not face criminal charges over alleged sexual assault. Police dropped the case due to insufficient evidence after completing a thorough investigation. The women involved are now pursuing legal action through civil claims against the athletes.",
+      "why_it_matters": "Players avoided criminal charges, but ongoing civil claims mean their legal troubles continue.",
+      "uncertainty": "It remains unclear how the accusers' civil legal claims will proceed against the players.",
+      "background": "Australian rules football is one of the most popular professional sports in the country. Top athletes often face intense public scrutiny regarding off-field conduct and team policy breaches.",
+      "jargon": [
+        {
+          "term": "balance of probabilities",
+          "meaning": "The standard of proof in civil cases where a claim must be more likely true than not."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Politics & World",
+      "title": "Chris Van Hollen says he will run for Senate majority leader, challenging fellow Democrat Chuck Schumer – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/12/mississippi-scott-colom-ukraine-donald-trump",
+      "published": "2026-11-13T03:04:16+00:00",
+      "summary": "A surprising internal battle has erupted for control of the Senate's upcoming Democratic majority. Progressive Chris Van Hollen is challenging Chuck Schumer, claiming voters demanded a break from the status quo. Schumer countered that he already holds enough votes to remain the party's leader.",
+      "why_it_matters": "Democratic senators must choose between cautious or aggressive strategies to confront Donald Trump.",
+      "uncertainty": "It is unclear whether Chuck Schumer actually has enough locked-in votes to defeat the leadership challenge.",
+      "background": "The Senate majority leader directs legislative strategy and sets priorities for the party holding the most seats. Party members vote on their leadership team following national elections before the new legislative session begins.",
+      "jargon": [
+        {
+          "term": "Majority leader",
+          "meaning": "The elected head of the controlling political party in the Senate who manages daily legislative business."
+        },
+        {
+          "term": "Caucus",
+          "meaning": "A group of lawmakers belonging to the same political party who meet to coordinate policy and strategy."
+        }
+      ],
+      "views": [
+        "Critics say Chuck Schumer has been overly cautious and failed to stand up to Donald Trump.",
+        "Supporters say Chris Van Hollen offers courageous leadership needed to answer public calls for political change."
+      ],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Tech",
+      "title": "Jensen Huang resigns as Nvidia CEO after alleged affairs",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/technology/2026/nov/12/nvidia-ceo-jensen-huang-resigns",
+      "published": "2026-11-12T22:05:28+00:00",
+      "summary": "Multiple reported extramarital affairs led to the immediate resignation of Nvidia chief executive Jensen Huang. The scandals wiped over $180bn off the chipmaker's market value in one day. Chief financial officer Colette Kress will take over as interim chief executive while the board searches for a successor.",
+      "why_it_matters": "Nvidia lost its leader and billions in value amidst growing personal conduct scandals.",
+      "uncertainty": "It remains unclear who will permanently succeed Jensen Huang as Nvidia's next chief executive.",
+      "background": "Nvidia is one of the world's most valuable tech companies, producing hardware that powers modern artificial intelligence. Under Huang's leadership, the firm became a dominant force in the global technology industry.",
+      "jargon": [
+        {
+          "term": "interim CEO",
+          "meaning": "A temporary leader appointed to run a company until a permanent replacement is chosen."
+        },
+        {
+          "term": "market cap",
+          "meaning": "The total monetary value of all of a company's outstanding shares of stock."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Money",
+      "title": "Nvidia turmoil continues as Jensen Huang resigns over affairs scandal and company appoints interim CEO – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
+      "published": "2026-11-12T21:33:08+00:00",
+      "summary": "Nvidia chief executive Jensen Huang abruptly resigned following personal conduct scandals involving an alleged Chinese spy. The company's stock plummeted by 14 percent before recovering slightly later in the day. Chief Financial Officer Colette Kress will take over as interim chief executive.",
+      "why_it_matters": "Allegations surrounding a leading AI chipmaker have sparked corporate chaos and national security concerns in Washington.",
+      "uncertainty": "It remains unclear whether Jensen Huang knew his romantic partner was connected to a key corporate competitor.",
+      "background": "Nvidia is a major technology company that designs powerful microchips driving the global artificial intelligence boom. Unexpected leadership changes at critical tech firms often trigger market volatility and intense government oversight.",
+      "jargon": [
+        {
+          "term": "Interim CEO",
+          "meaning": "A temporary leader appointed to run a company until a permanent chief executive is chosen."
+        },
+        {
+          "term": "Chipmaker",
+          "meaning": "A business that designs or manufactures microchips used to power computers and electronic hardware."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Money",
+      "title": "'Punch in the gut': Homes sales fall to their lowest in 16 years",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/12/nx-s1-6038940/punch-in-the-gut-homes-sales-fall-to-their-lowest-in-16-years",
+      "published": "2026-11-12T18:44:00+00:00",
+      "summary": "October home sales plunged 8.8% compared to last year, reaching a 16-year low. Surging mortgage rates and federal borrowing cost increases heavily discouraged prospective home buyers. Economists anticipated a quiet month, but were caught off guard by such a sharp drop.",
+      "why_it_matters": "Rising borrowing costs are making mortgages significantly more expensive, effectively freezing the housing market.",
+      "uncertainty": "It is unclear whether central bank policymakers will implement another interest rate hike in December.",
+      "background": "The central bank increases borrowing costs when it wants to cool down overall economic activity and bring inflation under control. Higher central bank rates spill over into consumer loans, including mortgages, making big purchases more expensive.",
+      "jargon": [
+        {
+          "term": "Mortgage rate",
+          "meaning": "The interest percentage a home buyer pays on a loan used to purchase property."
+        },
+        {
+          "term": "Federal Reserve",
+          "meaning": "The central bank of the United States that sets national monetary policy."
+        }
+      ],
+      "views": [],
+      "importance": "must-know"
+    },
+    {
+      "category": "Thailand & Asia",
+      "title": "Global outage hits Microsoft Outlook",
+      "source": "Bangkok Post",
+      "url": "https://www.bangkokpost.com/world/3353954/global-outage-hits-microsoft-outlook",
+      "published": "2026-11-13T02:45:00+00:00",
+      "summary": "A sudden infrastructure overload triggered a massive global blackout for key Microsoft online tools. The unexpected disruption crippled vital workplace applications like Outlook, Teams, and Copilot across 74 countries. Tech crews aggressively restarted servers and rerouted network traffic to slowly restore user connectivity.",
+      "why_it_matters": "a single tech failure can instantly disrupt daily communication and business operations worldwide.",
+      "uncertainty": "Microsoft did not explain what specifically caused the elevated load on its infrastructure.",
+      "background": "Microsoft 365 is a subscription service that hosts cloud-based applications for business and personal communication. Because millions of users rely on these connected tools every day, system issues can cause widespread disruptions.",
+      "jargon": [
+        {
+          "term": "Microsoft 365",
+          "meaning": "A cloud-based subscription service offering popular software tools like email, messaging, and document processing."
+        },
+        {
+          "term": "Downdetector",
+          "meaning": "An online platform that tracks digital service outages based on user-submitted problem reports."
+        }
+      ],
+      "views": [],
+      "importance": "must-know"
+    }
+  ],
+  "briefing": {
+    "big_picture": "Today brings noticeable shifts in everyday life, from a steep drop in home sales to global tech outages affecting daily work tools. Leadership changes are also shaking up major tech companies and political circles.",
+    "top_pick": 4,
+    "top_pick_why": "Surging mortgage rates have pushed home sales down to a 16-year low, directly affecting prospective buyers and the housing market."
+  }
+}
