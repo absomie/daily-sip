@@ -1,0 +1,147 @@
+{
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T03:53:45.415465+00:00",
+  "mode": "ai",
+  "stories": [
+    {
+      "category": "Politics & World",
+      "title": "Judge temporarily blocks Trump from closing Washington DC golf course for renovation",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c6j9mn7l14y0o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-15T03:21:04+00:00",
+      "summary": "A federal judge blocked plans to close a historic Washington DC golf course for a 15-month renovation. President Trump sought to overhaul the site, but the court found the government broke laws to rush work. The judge is now investigating whether government lawyers misled the court during the dispute.",
+      "why_it_matters": "A court paused the administration's attempt to fast-track closing a historic public park for renovations.",
+      "uncertainty": "It is unconfirmed whether government attorneys acted in bad faith or lied to the court.",
+      "background": "East Potomac Golf Links is a public park run by the National Park Service near the White House. Preservation groups sued to block redevelopment plans, sparking a legal battle over preserving historic public lands.",
+      "jargon": [
+        {
+          "term": "pretextual",
+          "meaning": "Giving a false official reason to disguise the true motivation for an action."
+        },
+        {
+          "term": "special master",
+          "meaning": "An independent party appointed by a court to help a judge investigate specific issues."
+        }
+      ],
+      "views": [
+        "Supporters say the course is dilapidated and hazardous, and the overhaul will create a world-class public facility.",
+        "Critics say the government broke federal laws and used false pretenses to force a quick closure."
+      ],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Politics & World",
+      "title": "Katherine Deves among four NSW upper house candidates revealed by One Nation",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/15/katherine-deves-among-four-nsw-upper-house-candidates-revealed-by-one-nation-ntwnfb",
+      "published": "2026-11-15T02:13:20+00:00",
+      "summary": "A controversial former Liberal candidate is making a political comeback with the right-wing One Nation party. Katherine Deves was announced alongside 3 other candidates for the upcoming New South Wales upper house election. The party also plans to run candidates across all 93 lower house seats.",
+      "why_it_matters": "A high-profile anti-trans campaigner is re-entering Australian politics under One Nation to reshape state laws.",
+      "uncertainty": "One Nation has not yet announced candidates for most of the lower house seats.",
+      "background": "Katherine Deves previously ran for a federal parliamentary seat, drawing national attention for her stance against transgender women in sports. One Nation is a political party that often positions itself against mainstream political parties and policies.",
+      "jargon": [
+        {
+          "term": "Legislative Council",
+          "meaning": "The upper house of a state parliament that reviews and votes on proposed laws."
+        },
+        {
+          "term": "DEI",
+          "meaning": "Standing for diversity, equity, and inclusion, these are policies aimed at supporting historically underrepresented groups."
+        }
+      ],
+      "views": [
+        "Supporters say the party's candidates are authentic everyday people who understand real economic pain points.",
+        "Critics say Deves has a history of making harmful and offensive statements regarding transgender rights."
+      ],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Tech",
+      "title": "Italy fines Meta €805m over accessing users' photos",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-14T18:28:06+00:00",
+      "summary": "",
+      "why_it_matters": "",
+      "uncertainty": "",
+      "background": "",
+      "jargon": [],
+      "views": [],
+      "importance": "must-know"
+    },
+    {
+      "category": "Money",
+      "title": "Beauty advent calendars can cost hundreds - but are they value for money?",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cqn83l442724o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-15T00:01:07+00:00",
+      "summary": "Kim Kardashian's beauty brand offered refunds on its $148 advent calendar after buyers criticized the quality of its contents. Beauty advent calendars have become very popular, accounting for roughly 15% of all holiday calendar sales. However, shoppers are becoming savvier, often reselling or trading unwanted items to ensure they get actual value.",
+      "why_it_matters": "pricey beauty calendars can feel wasteful unless you actually use or resell most of the items inside.",
+      "uncertainty": "It is unclear whether beauty advent calendars truly offer genuine consumer value or primarily serve to increase holiday spending.",
+      "background": "Advent calendars traditionally provide daily surprises leading up to Christmas, but cosmetic brands transformed them into luxury merchandise over a decade ago. Powerful marketing and influencer unboxing videos have turned these pricey gift sets into major annual holiday sellers.",
+      "jargon": [
+        {
+          "term": "Unboxing video",
+          "meaning": "A video where someone opens a packaged product to share their initial reaction."
+        },
+        {
+          "term": "Recommended retail price",
+          "meaning": "The standard price a manufacturer suggests selling a product for in stores."
+        }
+      ],
+      "views": [],
+      "importance": "just-for-fun"
+    },
+    {
+      "category": "Money",
+      "title": "US officials say flight stoppage stemmed from ‘routine maintenance’ as travel chaos continues",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/14/faa-ground-stop-flights-resume-airport-chaos",
+      "published": "2026-11-14T17:11:18+00:00",
+      "summary": "Routine maintenance on an aging telecommunications system triggered a massive nationwide flight shutdown. Officials said a faulty router or installer error caused the longest travel pause in 25 years. Thousands of flights were canceled as airlines worked to recover their normal schedules.",
+      "why_it_matters": "Outdated technology in critical infrastructure can suddenly disrupt travel for thousands of passengers nationwide.",
+      "uncertainty": "Officials are still determining whether human error or a defective piece of equipment caused the system failure.",
+      "background": "The Federal Aviation Administration manages air traffic control systems across the nation to keep flights safe. Upgrading old equipment while keeping daily flights moving safely can create complex technical challenges.",
+      "jargon": [
+        {
+          "term": "Ground stop",
+          "meaning": "A protocol holding aircraft on the ground to prevent them from taking off into disrupted airspace."
+        },
+        {
+          "term": "Fiber optic cable",
+          "meaning": "Modern technology that transfers data using light signals rather than older electric copper wiring."
+        }
+      ],
+      "views": [],
+      "importance": "must-know"
+    },
+    {
+      "category": "Thailand & Asia",
+      "title": "Anutin takes pitch to summits",
+      "source": "Bangkok Post",
+      "url": "https://www.bangkokpost.com/thailand/general/3354721/anutin-takes-pitch-to-summits",
+      "published": "2026-11-14T23:47:00+00:00",
+      "summary": "Thailand wants to serve as a doorway to a market of 700 million regional consumers. Prime Minister Anutin Charnvirakul is taking this pitch to upcoming international summits. He will showcase the nation's energy security, infrastructure, and investment potential.",
+      "why_it_matters": "Thailand is making a major push to position itself as a central hub for foreign investment.",
+      "uncertainty": "",
+      "background": "Global summits give nations a platform to pitch business opportunities to international investors. Leaders frequently highlight local infrastructure to encourage foreign companies to build regional operations.",
+      "jargon": [
+        {
+          "term": "ASEAN",
+          "meaning": "A regional union of Southeast Asian countries working together on economic growth."
+        },
+        {
+          "term": "APEC",
+          "meaning": "A forum for Pacific Rim economies focused on promoting trade and investment."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    }
+  ],
+  "briefing": {
+    "big_picture": "Routine maintenance recently triggered widespread flight cancellations across the US, while tech companies face massive fines over privacy practices. Meanwhile, holiday shoppers are taking a closer look at high-priced advent calendars, and regional trade pitches are taking center stage.",
+    "top_pick": 4,
+    "top_pick_why": "A routine maintenance error triggered the longest US flight stoppage in 25 years, causing widespread travel disruption for thousands."
+  }
+}
