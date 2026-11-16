@@ -1,0 +1,152 @@
+{
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T04:08:10.147428+00:00",
+  "mode": "ai",
+  "stories": [
+    {
+      "category": "Politics & World",
+      "title": "Yemeni forces' retreat leaves Houthis in control of key Red Sea waterway",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-16T03:08:31+00:00",
+      "summary": "Houthi rebels now control a critical Red Sea shipping chokepoint after Yemeni government troops retreated. Pro-government forces pulled back to defend the southern city of Aden from rising threats. The move leaves the strategic Bab al-Mandab Strait vulnerable and threatens global oil routes.",
+      "why_it_matters": "Rebel control over this major trade bottleneck could further disrupt global oil shipments.",
+      "uncertainty": "Saudi Arabia has not officially commented on the retreat of the forces it backs.",
+      "background": "Yemen has been locked in a devastating civil war since Houthi rebels ousted the government from the capital. A Saudi-led coalition intervened to restore the government, but fighting recently reignited after an informal ceasefire collapsed.",
+      "jargon": [
+        {
+          "term": "Bab al-Mandab Strait",
+          "meaning": "A narrow sea passage connecting the Red Sea to the Gulf of Aden, crucial for international trade."
+        },
+        {
+          "term": "Houthis",
+          "meaning": "An Iran-backed political and military movement in Yemen fighting against the internationally recognised government."
+        }
+      ],
+      "views": [
+        "Pro-government forces say the withdrawal was necessary to reinforce other front lines and prioritize defending Aden.",
+        "The Houthis say they do not threaten international vessels and will only target ships from Saudi Arabia."
+      ],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Politics & World",
+      "title": "In calling for an end to the Iran War, Vance walks a fine line with Trump",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/15/nx-s1-6040447/in-calling-for-an-end-to-the-iran-war-vance-walks-a-fine-line-with-trump",
+      "published": "2026-11-15T13:11:23+00:00",
+      "summary": "Vice President JD Vance publicly blamed the ongoing war in Iran for Republican losses in the midterm elections. In response, President Trump stated that no deal with Iran is needed. He directed Vance to focus instead on domestic crime in cities led by Democrats.",
+      "why_it_matters": "Growing friction between the top leaders complicates foreign policy and shapes future presidential ambitions.",
+      "uncertainty": "It is unclear whether diplomatic negotiations will successfully end the conflict with Iran anytime soon.",
+      "background": "President Trump previously campaigned on a promise to avoid entering new foreign conflicts. Vice President Vance was assigned to lead negotiations with Iran earlier in his term. However, incumbent vice presidents traditionally struggle to win election to the presidency.",
+      "jargon": [
+        {
+          "term": "Incumbent",
+          "meaning": "An official currently holding a political office while running for reelection or higher office."
+        }
+      ],
+      "views": [
+        "Vice President Vance says ending the Iran war is vital to winning back voters.",
+        "President Trump says a deal with Iran is unnecessary and prefers focusing on domestic crime."
+      ],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Tech",
+      "title": "Italy fines Meta €805m over accessing users' photos",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-14T18:28:06+00:00",
+      "summary": "Italy just hit Meta with an €805 million fine for quietly scanning user photos without explicit permission. Regulators claim the Facebook app used gallery files from 20 million people to suggest post ideas. Meta must now disable the feature by default.",
+      "why_it_matters": "tech giants cannot hide detailed data tracking behind vague, blanket permission prompts.",
+      "uncertainty": "",
+      "background": "Social media platforms often ask for access to phone galleries so users can share photos and videos. However, European privacy regulators strictly enforce rules requiring clear consent before companies can process personal data. Meta has faced previous regulatory scrutiny over how it handles user privacy.",
+      "jargon": [
+        {
+          "term": "app-wide authorisation",
+          "meaning": "A single permission grant giving an app broad access to device features at once."
+        },
+        {
+          "term": "Data Protection Authority",
+          "meaning": "A official regulatory body that enforces privacy laws and protects personal information."
+        }
+      ],
+      "views": [],
+      "importance": "must-know"
+    },
+    {
+      "category": "Money",
+      "title": "Burnham pledges early intervention and ‘benefits backstop’ to tackle youth jobs crisis",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/society/2026/nov/15/no-free-lunch-milburn-mcfadden-kuenssberg-uk-benefits-youth-unemployment-neet",
+      "published": "2026-11-16T00:06:13+00:00",
+      "summary": "More than a million young Britons are currently not working, studying, or in training. The government plans sweeping welfare changes that link financial support to mandatory job training. Some young people may lose certain health benefits as part of these new rules.",
+      "why_it_matters": "The UK is shifting its welfare policy to push young adults into jobs and training.",
+      "uncertainty": "It is unclear if the proposed short-term job placements will successfully lead to permanent employment.",
+      "background": "Governments often adjust welfare systems to balance financial aid with incentives to enter the workforce. In recent years, claims for health-related benefits among young adults have increased sharply.",
+      "jargon": [
+        {
+          "term": "Neets",
+          "meaning": "A term for young people who are not in education, employment, or training."
+        },
+        {
+          "term": "Universal credit",
+          "meaning": "A UK government benefit system that provides financial support for living costs and low income."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Money",
+      "title": "UK will have 'voice' but no vote on EU food rules in Brexit reset",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c6wy4l8nl42wo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-15T22:00:24+00:00",
+      "summary": "Exporting food to the EU currently leads to rejections over minor issues like wrong pen ink colors. A proposed Brexit reset deal aims to cut this border red tape and potentially lower grocery costs. Under the agreement, Britain will help shape European food regulations but will not get a vote.",
+      "why_it_matters": "Cutting border paperwork could lower supermarket prices, though Britain must follow rules it cannot vote on.",
+      "uncertainty": "It is still unclear how specific compromises on pesticides and gene-edited crops will be handled under the deal.",
+      "background": "Following Brexit, British food exporters faced strict new paperwork and border checks when trading with the European Union. These extra trade barriers led to a significant drop in UK food exports. The government is now negotiating closer alignment with EU standards to ease border friction.",
+      "jargon": [
+        {
+          "term": "Rule taker",
+          "meaning": "A country that must follow external regulations without having a vote or say in making them."
+        },
+        {
+          "term": "Phytosanitary certificate",
+          "meaning": "An official document verifying that exported plant products meet health and safety standards."
+        }
+      ],
+      "views": [],
+      "importance": "must-know"
+    },
+    {
+      "category": "Thailand & Asia",
+      "title": "China confirms first Xi-Trump-Putin summit on Thursday",
+      "source": "CNA",
+      "url": "https://www.channelnewsasia.com/asia/donald-trump-xi-jinping-vladimir-putin-china-meeting-6553826",
+      "published": "2026-11-16T01:32:00+00:00",
+      "summary": "Xi Jinping, Donald Trump, and Vladimir Putin will hold their first three-way summit in Shenzhen this Thursday. US officials say Trump wants to discuss nuclear arsenals and Iran, but not the war in Ukraine. China maintains the US and Russia must reduce their own stockpiles before it joins nuclear negotiations.",
+      "why_it_matters": "Three global leaders are meeting, but they disagree on what issues should actually be discussed.",
+      "uncertainty": "China's foreign ministry did not share any details about the specific topics planned for the summit.",
+      "background": "The Asia-Pacific Economic Cooperation forum brings regional leaders together for high-level political and economic discussions. Leaders occasionally use these international gatherings to hold side meetings on pressing global issues.",
+      "jargon": [
+        {
+          "term": "APEC",
+          "meaning": "A forum for Asia-Pacific countries to discuss economic growth, trade, and regional cooperation."
+        },
+        {
+          "term": "Trilateral summit",
+          "meaning": "A formal diplomatic meeting conducted between the leaders of three separate nations."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    }
+  ],
+  "briefing": {
+    "big_picture": "Today's news highlights major international moves alongside practical policy updates that touch on privacy and personal finances. From tech fines to new trade efforts, global leadership decisions are quietly influencing everything from user data safety to household expenses.",
+    "top_pick": 4,
+    "top_pick_why": "It directly affects everyday spending by outlining a trade deal that aims to reduce border red tape and potentially lower grocery bills."
+  }
+}
