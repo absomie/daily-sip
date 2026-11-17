@@ -1,0 +1,141 @@
+{
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T03:43:21.614225+00:00",
+  "mode": "ai",
+  "stories": [
+    {
+      "category": "Politics & World",
+      "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-17T02:37:53+00:00",
+      "summary": "Donald Trump and Elon Musk are backing a campaign to reinstate ousted Nvidia co-founder Jensen Huang. According to BBC News, Nvidia's board has firmly rejected any prospect of his return. The leadership crisis followed Huang's resignation over extra-marital affairs, including one involving a suspected spy.",
+      "why_it_matters": "A boardroom crisis at the leading AI chipmaker is colliding directly with US-China national security rivalries.",
+      "uncertainty": "It remains unconfirmed whether advanced microchips were illicitly diverted to China through foreign data centres.",
+      "background": "Nvidia develops advanced computer chips that power modern artificial intelligence models. The United States tightly restricts the export of these technologies to maintain an advantage over China. Because of these stakes, high-level corporate governance inside chip companies heavily intersects with international security.",
+      "jargon": [
+        {
+          "term": "semiconductors",
+          "meaning": "Essential microchips that process complex data to power computers and artificial intelligence systems."
+        },
+        {
+          "term": "export controls",
+          "meaning": "Government regulations that restrict selling sensitive domestic technology to foreign companies or countries."
+        }
+      ],
+      "views": [
+        "Supporters say Huang was removed without due process and should lead the firm again.",
+        "Critics, including Treasury Secretary Scott Bessent, say Nvidia should hire an outside chief executive."
+      ],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Politics & World",
+      "title": "United Airlines says ‘widespread’ system outage resolved",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/nov/16/united-airlines-system-outage",
+      "published": "2026-11-17T02:57:06+00:00",
+      "summary": "Pilots were suddenly left without essential safety data when United Airlines suffered a widespread computer crash. The glitch held up departures for roughly ninety minutes before technicians resolved the problem. United confirmed that the incident was not related to a cyberattack.",
+      "why_it_matters": "Fragile tech systems can quickly stall air travel over seemingly minor computer glitches.",
+      "uncertainty": "Officials have not yet identified what specifically caused the airline's system outage.",
+      "background": "Before departing, commercial pilots must run software calculations to ensure an airplane's weight allows for safe takeoff. When these critical digital tools crash, airlines have to keep flights waiting at their gates.",
+      "jargon": [
+        {
+          "term": "ground stop",
+          "meaning": "A temporary safety measure that halts airplanes from taking off."
+        }
+      ],
+      "views": [],
+      "importance": "must-know"
+    },
+    {
+      "category": "Tech",
+      "title": "Albanese signs on to Trump’s AI supply chain pact before leaders’ meeting at Quad summit",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/16/albanese-treads-tightrope-in-upcoming-trump-meeting-wanting-indo-pacific-engagement-and-end-to-iran-and-ukraine-wars",
+      "published": "2026-11-16T21:00:21+00:00",
+      "summary": "Australia has joined a US-led pact to shield artificial intelligence supply chains and critical minerals from China. The deal unites partners like Japan and the UK to safeguard vital technology networks and computer chips. Australian leader Anthony Albanese signed on right before meeting Donald Trump at an Asian summit.",
+      "why_it_matters": "Global powers are racing to keep crucial future tech out of rival hands.",
+      "uncertainty": "",
+      "background": "The Quad is an informal diplomatic partnership bringing together four major democracies to coordinate regional security and strategy. Western allies have grown increasingly anxious about relying on competitors for advanced computer chips and the minerals required to make them. These gatherings allow allied leaders to align their economic defenses.",
+      "jargon": [
+        {
+          "term": "Quad",
+          "meaning": "A diplomatic partnership between the United States, Australia, India, and Japan focused on regional cooperation."
+        },
+        {
+          "term": "Supply chain",
+          "meaning": "The entire network of resources, materials, and transport needed to create and deliver a product."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Money",
+      "title": "Alan Milburn urges Burnham to spend billions on ‘new deal’ for young people",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/society/2026/nov/16/alan-milburn-urges-burnham-spend-billions-new-deal-young-people-youth-jobs-crisis-welfare-employment",
+      "published": "2026-11-16T22:30:55+00:00",
+      "summary": "Britain spends £25 on youth benefits for every pound invested in helping them find work. A sweeping report proposes cutting those welfare payments for young adults to fund intensive job coaching. The plan aims to radically lower youth unemployment through guaranteed training and career services.",
+      "why_it_matters": "Young jobseekers might soon face stricter welfare checks alongside far more hands-on career help.",
+      "uncertainty": "It remains unconfirmed whether the government will officially adopt the report's controversial proposals.",
+      "background": "Youth unemployment in the UK has surged recently as businesses hold back on hiring. Policy debates often center on whether state aid should prioritize direct financial relief or practical career training.",
+      "jargon": [
+        {
+          "term": "Neet",
+          "meaning": "An acronym describing people who are not in education, employment, or training."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Money",
+      "title": "Trump says he wouldn’t mind Jensen Huang being reinstated as Nvidia CEO, as its shares fall again – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/nov/16/ai-sell-off-resumes-jensen-huang-discusses-comeback-nvidia-ceo-dollar-stock-markets-latest-news-updates",
+      "published": "2026-11-16T15:43:06+00:00",
+      "summary": "Donald Trump announced he would support Jensen Huang returning as chief executive of Nvidia. Huang recently resigned after admitting infidelity and facing allegations involving a suspected Chinese spy. Meanwhile, tech executives including Elon Musk signed a petition urging the chipmaker to reinstate him.",
+      "why_it_matters": "Leadership turmoil at a major AI chipmaker can sway global tech markets and investor confidence.",
+      "uncertainty": "It remains unconfirmed whether the woman linked to Huang was actually a Chinese spy.",
+      "background": "Nvidia designs advanced computer processors essential for artificial intelligence systems. Major disruptions to its leadership can rattle investors and trigger big price swings on Wall Street.",
+      "jargon": [
+        {
+          "term": "Market capitalisation",
+          "meaning": "The total market value of all of a company's shares of stock combined."
+        },
+        {
+          "term": "Data centre",
+          "meaning": "A dedicated facility housing networked computer servers used for remote data processing and storage."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Thailand & Asia",
+      "title": "Ekniti vows to stay out of BoT's internal conflicts",
+      "source": "Bangkok Post",
+      "url": "https://www.bangkokpost.com/business/general/3355849/ekniti-vows-to-stay-out-of-bots-internal-conflicts",
+      "published": "2026-11-16T22:54:00+00:00",
+      "summary": "",
+      "why_it_matters": "",
+      "uncertainty": "",
+      "background": "",
+      "jargon": [],
+      "views": [],
+      "importance": "just-for-fun"
+    }
+  ],
+  "briefing": {
+    "big_picture": "Global leaders and tech executives are navigating high-stakes debates over computer chip supply chains and corporate leadership. At the same time, practical updates range from resolved flight delays to proposed job training initiatives for young adults.",
+    "top_pick": 1,
+    "top_pick_why": "It directly touches traveler safety and schedules, confirming that a computer glitch delaying flights was quickly fixed without any cyberattack."
+  },
+  "learn": {
+    "term": "Global supply chain",
+    "explainer": "A supply chain is the interconnected network of organizations, resources, and activities needed to create a product and deliver it to buyers. Think of it like a relay race where several runners pass a baton; if one runner stumbles or drops it, the entire team is delayed. For complex technology like artificial intelligence, securing every step across multiple countries prevents shortages and keeps modern industries running smoothly.",
+    "why_in_news": "This concept is in the news as world leaders sign new international agreements to protect and coordinate their artificial intelligence supply chains."
+  }
+}
