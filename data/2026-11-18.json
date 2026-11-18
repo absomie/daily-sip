@@ -1,0 +1,126 @@
+{
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T04:18:24.901767+00:00",
+  "mode": "ai",
+  "stories": [
+    {
+      "category": "Politics & World",
+      "title": "Nvidia says it won't reinstate Huang as firm reports bumper results",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-18T01:18:18+00:00",
+      "summary": "",
+      "why_it_matters": "",
+      "uncertainty": "",
+      "background": "",
+      "jargon": [],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Politics & World",
+      "title": "White House pulls nomination of Heidi Overton to lead Food and Drug Administration – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/17/donald-trump-alaska-senate-race-midterms-democrats-republicans-latest-news-updates",
+      "published": "2026-11-18T02:57:58+00:00",
+      "summary": "The White House abruptly withdrew Heidi Overton's nomination to lead the Food and Drug Administration. Senator Bill Cassidy called the decision odd and insisted she had enough Senate support. The administration reportedly pulled her rather than make commitments on abortion issues.",
+      "why_it_matters": "The FDA lacks a permanent leader after internal party disagreements derailed the administration's nominee.",
+      "uncertainty": "It remains unclear who will ultimately be nominated and confirmed to lead the FDA.",
+      "background": "The Food and Drug Administration regulates medicines, medical devices, and food safety across the country. Top leadership positions at major government agencies require official approval from the Senate before nominees can take office.",
+      "jargon": [
+        {
+          "term": "Senate confirmation",
+          "meaning": "The approval process where lawmakers vote on presidential appointments to major government positions."
+        },
+        {
+          "term": "Deposition",
+          "meaning": "Sworn out-of-court testimony taken from a witness before a trial."
+        }
+      ],
+      "views": [
+        "The White House said Overton was withdrawn because she lacked the votes to pass confirmation.",
+        "Senator Bill Cassidy said Overton had a viable confirmation path and would follow science."
+      ],
+      "importance": "must-know"
+    },
+    {
+      "category": "Tech",
+      "title": "Waymo temporarily pulls driverless taxis from all US freeways",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cmy86pp336qlo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-18T03:07:22+00:00",
+      "summary": "Waymo has paused all its driverless taxi rides on US freeways. California banned the vehicles after several entered active construction zones and tried passing police cars. Waymo is evaluating safety, though the cars still operate on regular city streets.",
+      "why_it_matters": "Safety glitches on high-speed roads have temporarily pushed driverless taxis off American freeways.",
+      "uncertainty": "It is unconfirmed when Waymo will satisfy California officials and resume freeway rides.",
+      "background": "Driverless taxi companies have spent years testing self-driving technology in major cities. While navigating local streets is common, moving onto high-speed highways presents bigger safety and technical challenges.",
+      "jargon": [
+        {
+          "term": "Autonomous vehicle",
+          "meaning": "A car that uses software and sensors to drive without a human operator."
+        },
+        {
+          "term": "Incursion",
+          "meaning": "An unwanted or improper entry into a restricted area, like a construction zone."
+        }
+      ],
+      "views": [],
+      "importance": "must-know"
+    },
+    {
+      "category": "Money",
+      "title": "Jeff Bezos says he was 'heavily involved' in casting Robert Pattinson as new 007",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cm5y1eejk292o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-18T02:40:45+00:00",
+      "summary": "",
+      "why_it_matters": "",
+      "uncertainty": "",
+      "background": "",
+      "jargon": [],
+      "views": [],
+      "importance": "just-for-fun"
+    },
+    {
+      "category": "Money",
+      "title": "UK will miss climate targets if it weakens EV sales rules, advisers warn",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/environment/2026/nov/18/uk-will-miss-climate-targets-if-weakens-rules-on-ev-sales-zev-ccc",
+      "published": "2026-11-18T00:01:26+00:00",
+      "summary": "Softening electric vehicle rules could add millions of tonnes of pollution each year. Climate advisers warn the UK will likely miss its binding climate goals if car rules weaken. Meanwhile, automakers are lobbying for lower targets, citing major financial pressure.",
+      "why_it_matters": "Watering down electric car targets could derail the nation's entire plan to tackle climate change.",
+      "uncertainty": "It is unclear whether government ministers are still actively discussing proposals to lower parliamentary carbon targets.",
+      "background": "The UK has set legally binding targets to eliminate its net carbon emissions by 2050. To meet these goals, the government introduced rules forcing car manufacturers to sell more electric vehicles or pay stiff penalties.",
+      "jargon": [
+        {
+          "term": "Zero emission vehicle mandate",
+          "meaning": "A rule requiring automakers to make a set percentage of their vehicle sales electric or face fines."
+        },
+        {
+          "term": "Carbon budgets",
+          "meaning": "Legally binding limits on the maximum amount of greenhouse gas emissions allowed over specific multi-year periods."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Thailand & Asia",
+      "title": "Hotel guests spend less amid high season",
+      "source": "Bangkok Post",
+      "url": "https://www.bangkokpost.com/business/general/3356749/hotel-guests-spend-less-amid-high-season",
+      "published": "2026-11-17T23:20:00+00:00",
+      "summary": "",
+      "why_it_matters": "",
+      "uncertainty": "",
+      "background": "",
+      "jargon": [],
+      "views": [],
+      "importance": "just-for-fun"
+    }
+  ],
+  "briefing": {
+    "big_picture": "Today's news highlights key shifts in national policy and tech safety, including the White House withdrawing its nomination for the FDA chief. Meanwhile, driverless taxis are taking a pause on U.S. freeways to evaluate safety concerns.",
+    "top_pick": 2,
+    "top_pick_why": "It directly touches on daily commuter safety as autonomous vehicles navigate complex road situations like police cars and construction zones."
+  }
+}
