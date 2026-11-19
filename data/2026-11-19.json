@@ -1,0 +1,144 @@
+{
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T04:38:29.799774+00:00",
+  "mode": "ai",
+  "stories": [
+    {
+      "category": "Politics & World",
+      "title": "China’s Xi greets Putin and Trump at APEC before historic summit",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/chinas-xi-greets-putin-and-trump-at-apec-before-historic-summit?traffic_source=rss",
+      "published": "2026-11-19T03:01:27+00:00",
+      "summary": "The leaders of China, the United States, and Russia are preparing for an unprecedented three-way summit. Chinese President Xi Jinping greeted Donald Trump and Vladimir Putin at the APEC gathering in Shenzhen. The trio shared greetings before posing with fellow world leaders for a group photo.",
+      "why_it_matters": "three major global powers are sitting down together for a historic first-time meeting.",
+      "uncertainty": "",
+      "background": "APEC is an international forum where Pacific nations gather to discuss economic ties and trade cooperation. Large multilateral summits like this often provide a backdrop for world leaders to hold separate direct meetings.",
+      "jargon": [
+        {
+          "term": "trilateral summit",
+          "meaning": "A formal diplomatic meeting held between the leaders of three separate countries."
+        },
+        {
+          "term": "APEC",
+          "meaning": "A regional forum where Pacific Rim governments meet to discuss trade and economic policies."
+        }
+      ],
+      "views": [],
+      "importance": "must-know"
+    },
+    {
+      "category": "Politics & World",
+      "title": "Why the Nvidia scandal is a national security issue",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/18/nx-s1-6044275/why-the-nvidia-scandal-is-a-national-security-issue",
+      "published": "2026-11-18T22:12:56+00:00",
+      "summary": "Nvidia's former chief executive actively lobbied the Trump administration to ease restrictions on advanced artificial intelligence chips. Over $60 billion of these chips subsequently flowed to Southeast Asia without strict license enforcement. Officials suspect many chips were ultimately smuggled into China or used by its tech giants.",
+      "why_it_matters": "America's most advanced technology may have slipped into the hands of its primary foreign rival.",
+      "uncertainty": "It remains unclear exactly how Huang's personal relationship with Trump influenced the administration's chip export decisions.",
+      "background": "The United States and China are in an intense race for dominance in artificial intelligence. Advanced microchips serve as the vital hardware required to train complex technology models. To safeguard national security, officials often restrict sending these high-tech components overseas.",
+      "jargon": [
+        {
+          "term": "Export controls",
+          "meaning": "Government restrictions on sending sensitive technologies or goods to foreign nations for security reasons."
+        },
+        {
+          "term": "AI chips",
+          "meaning": "Specialized computer hardware designed to process the massive amounts of data required for artificial intelligence."
+        }
+      ],
+      "views": [
+        "Supporters of sales say making China buy American chips keeps their technology sector dependent on U.S. hardware.",
+        "Critics say failing to enforce rules enables a massive transfer of critical technology to a foreign adversary."
+      ],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Tech",
+      "title": "Security flaw found in Java, world's third-largest programming language",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cke89jevqm1vo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-18T08:47:06+00:00",
+      "summary": "An artificial intelligence model recently uncovered a critical hidden security flaw in Java. The hugely popular programming language runs critical systems for global banks, airlines, and tech giants. This serious bug allows attackers to execute unwanted commands directly inside a system's memory.",
+      "why_it_matters": "A hidden bug in code used worldwide could leave major banks and essential services vulnerable.",
+      "uncertainty": "It is currently unclear if any companies were affected by the flaw or if recent outages were related.",
+      "background": "Java is a widespread programming language designed to manage online memory and secure routine digital tasks. Many essential global systems rely on this older software foundation to protect personal information and financial data.",
+      "jargon": [
+        {
+          "term": "Programming language",
+          "meaning": "A set of instructions used by developers to create software, applications, and digital systems."
+        },
+        {
+          "term": "Patch",
+          "meaning": "A quick software update released to fix errors, security flaws, or bugs in a program."
+        }
+      ],
+      "views": [],
+      "importance": "must-know"
+    },
+    {
+      "category": "Money",
+      "title": "Anthropic sets share price at $83 for stock market debut, above expected range",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/technology/2026/nov/18/anthropic-share-price-stock-market-ipo",
+      "published": "2026-11-18T21:39:15+00:00",
+      "summary": "",
+      "why_it_matters": "",
+      "uncertainty": "",
+      "background": "",
+      "jargon": [],
+      "views": [],
+      "importance": "just-for-fun"
+    },
+    {
+      "category": "Money",
+      "title": "Nvidia doubles revenue as board says it does not intend to reinstate Jensen Huang",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/technology/2026/nov/17/nvidia-third-quarter-revenue-jensen-huang",
+      "published": "2026-11-17T23:32:16+00:00",
+      "summary": "Nvidia’s board will not bring back ousted CEO Jensen Huang despite calls from high-profile figures. Huang resigned after allegations of multiple affairs, including one with a suspected Chinese spy. Even with the turmoil, quarterly revenue doubled to $115.84bn.",
+      "why_it_matters": "Nvidia remains financially strong despite executive turmoil and upcoming government scrutiny.",
+      "uncertainty": "The full scope of a reported SEC investigation into Nvidia's business in China remains unclear.",
+      "background": "Nvidia designs specialized computer chips essential for running modern artificial intelligence applications. The company expanded from gaming graphics into a massive tech giant powering major AI systems worldwide.",
+      "jargon": [
+        {
+          "term": "Interim CEO",
+          "meaning": "A temporary executive appointed to lead a company until a permanent leader is selected."
+        },
+        {
+          "term": "After-hours trading",
+          "meaning": "Buying and selling company stock after normal stock market operating hours have ended."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Thailand & Asia",
+      "title": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-18T23:04:06+00:00",
+      "summary": "No country has ever been convicted of genocide by an international court. The United Nations top court will soon rule on whether Myanmar committed genocide against Rohingya Muslims. The landmark case was filed by The Gambia following a brutal military expulsion.",
+      "why_it_matters": "a ruling against Myanmar could change how international law holds entire states accountable for mass atrocities.",
+      "uncertainty": "It remains unclear whether the court will find sufficient evidence to prove deliberate genocidal intent.",
+      "background": "The Rohingya are an ethnic Muslim minority from Rakhine State in Myanmar. Hundreds of thousands fled to Bangladesh following severe violence and destroyed villages during military operations. Because individual officials could not be tried at the criminal court, another nation brought the case to the United Nations legal court.",
+      "jargon": [
+        {
+          "term": "Genocide Convention",
+          "meaning": "An international treaty created after the Holocaust to prevent and punish acts aimed at destroying a specific group."
+        },
+        {
+          "term": "Genocidal intent",
+          "meaning": "The legal requirement to prove that perpetrators committed acts specifically to destroy a target group."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    }
+  ],
+  "briefing": {
+    "big_picture": "Today's news highlights major shifts in world diplomacy and technology, from an unprecedented summit between global leaders to record tech revenues. Meanwhile, critical digital systems face a newly uncovered security flaw, and international courts prepare for landmark rulings.",
+    "top_pick": 2,
+    "top_pick_why": "A newly discovered security flaw in Java could impact essential systems powering global banks, airlines, and major tech companies."
+  }
+}
