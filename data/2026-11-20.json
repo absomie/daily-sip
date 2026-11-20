@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T03:55:01.767753+00:00",
+  "mode": "ai",
+  "stories": [
+    {
+      "category": "Politics & World",
+      "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T00:50:24+00:00",
+      "summary": "Russia has invited European officials to Moscow to clarify their positions on ending the war in Ukraine. European leaders say they are ready for talks, though they warn Moscow's demands remain unrealistic. However, Ukrainian and European officials remain deeply skeptical about whether genuine peace can be achieved.",
+      "why_it_matters": "European powers are pushing for a seat at the table to shape any future peace settlement.",
+      "uncertainty": "It remains unclear whether Moscow will ultimately accept European participation or agree to collective security guarantees for Ukraine.",
+      "background": "Russia launched a full-scale invasion of Ukraine, leading to an ongoing war and severe damage to Ukrainian infrastructure. Western allies have supplied Kyiv with defense systems while debating diplomatic routes toward a potential settlement.",
+      "jargon": [
+        {
+          "term": "Article Five",
+          "meaning": "A treaty clause where allies promise to defend any member country that comes under military attack."
+        },
+        {
+          "term": "Spheres of influence",
+          "meaning": "Regions where a powerful nation claims exclusive political, military, or economic control."
+        }
+      ],
+      "views": [
+        "US envoys say peace is achievable and that Russia may accept security guarantees for Ukraine.",
+        "European and Ukrainian leaders say Moscow's demands are unrealistic and that Vladimir Putin has consistently rejected peace proposals."
+      ],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Politics & World",
+      "title": "The U.N.'s top court rules Myanmar committed genocide against the Rohingya",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/19/g-s1-154340/un-court-myanmar-genocide-rohingya",
+      "published": "2026-11-19T12:29:41+00:00",
+      "summary": "For the first time ever, the U.N.'s highest court held a nation legally responsible for genocide. Judges ruled Myanmar's military intended to destroy the minority Rohingya population during a 2017 crackdown. The court estimated that about 10,000 people were killed in the systematic violence.",
+      "why_it_matters": "It establishes a landmark legal precedent holding an entire government accountable for mass atrocities.",
+      "uncertainty": "Myanmar's military-backed government had not yet responded to the decision at the time of writing.",
+      "background": "The Rohingya are a Muslim minority group who have lived in Myanmar for generations. Authorities there have subjected them to decades of discrimination and denied them basic citizenship rights.",
+      "jargon": [
+        {
+          "term": "International Court of Justice",
+          "meaning": "The principal judicial organ of the United Nations that resolves legal disputes between states."
+        },
+        {
+          "term": "Genocide Convention",
+          "meaning": "An international treaty legally defining and banning acts committed to destroy a specific group."
+        }
+      ],
+      "views": [
+        "Myanmar argued its military actions were lawful counterinsurgency operations targeting an armed insurgent group.",
+        "Court judges and human rights experts said widespread attacks against civilians proved an intent to destroy the group."
+      ],
+      "importance": "must-know"
+    },
+    {
+      "category": "Tech",
+      "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T23:33:51+00:00",
+      "summary": "Claude creator Anthropic just became one of the world's most valuable public companies overnight. Shares surged roughly 17% on its opening day, valuing the company at $1.76 trillion. Still, cautious investors wonder whether the expensive boom in artificial intelligence will last.",
+      "why_it_matters": "It is the biggest market test yet for whether the costly AI boom is real.",
+      "uncertainty": "It remains unclear whether Anthropic is truly worth its massive valuation over the long haul.",
+      "background": "Anthropic is best known for creating Claude, a chatbot that can write code and generate text. It is the first purely artificial intelligence firm to launch on the public stock market. Recent advances in computer power have spurred an unprecedented wave of spending on the technology.",
+      "jargon": [
+        {
+          "term": "financial bubble",
+          "meaning": "When prices surge far higher than an asset's actual value before suddenly crashing down."
+        },
+        {
+          "term": "public company",
+          "meaning": "A business whose shares can be freely bought and sold by everyday investors on an exchange."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Money",
+      "title": "Anthropic’s historic stock market debut: key takeaways, and what comes next for the AI industry",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/technology/2026/nov/20/anthropic-ipo-historic-stock-market-debut-key-takeaways-what-next-for-ai",
+      "published": "2026-11-20T03:33:45+00:00",
+      "summary": "Claude creator Anthropic lost $104bn this year, yet investors still valued the company at $1.3tn. The massive stock debut drew intense buyer interest despite growing worries over costly computing infrastructure. However, broader markets wobbled as political leaders raised concerns about the company's financial risks.",
+      "why_it_matters": "Sky-high investor enthusiasm is clashing with massive operational losses and looming political pushback.",
+      "uncertainty": "It remains unclear how future government regulation and rising infrastructure debts will affect the company's stability.",
+      "background": "Anthropic was started by former OpenAI employees to build artificial intelligence, including the chatbot Claude. Running advanced AI models requires enormous computing power housed in specialized facilities known as data centers.",
+      "jargon": [
+        {
+          "term": "IPO",
+          "meaning": "When a private company sells its shares to the public on the stock market for the first time."
+        },
+        {
+          "term": "Valuation",
+          "meaning": "The total estimated financial worth of a company, calculated using its current share price."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Money",
+      "title": "Anthropic shares end first day of trading at $97 as Wall Street closes sharply lower – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/nov/19/anthropic-float-stock-market-nasdaq-raises-81bn-record-ipo-latest-news-updates",
+      "published": "2026-11-19T22:13:52+00:00",
+      "summary": "The maker of the Claude chatbot just launched the biggest stock debut in history. Even so, Anthropic's soaring arrival could not stop the rest of Wall Street from tumbling. Shares gained 17% on their first day, but wider markets dropped over growing artificial intelligence bubble fears.",
+      "why_it_matters": "Investors worry the massive artificial intelligence boom might be turning into a shaky bubble.",
+      "uncertainty": "It remains unclear whether the artificial intelligence industry can maintain its rapid financial momentum over time.",
+      "background": "Anthropic is an artificial intelligence lab best known for creating the conversational assistant Claude. Going public allows a previously private company to raise billions of dollars by selling shares to everyday stock market investors.",
+      "jargon": [
+        {
+          "term": "IPO",
+          "meaning": "An initial public offering, when a private company first sells shares of stock to the general public."
+        },
+        {
+          "term": "bellwether",
+          "meaning": "A leading company whose performance signals the general direction of an entire industry or market."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Thailand & Asia",
+      "title": "Trump, Xi and Putin release 'peace declaration' from unprecedented summit",
+      "source": "CNA",
+      "url": "https://www.channelnewsasia.com/world/china-russia-us-peace-declaration-nuclear-trilateral-talks-6565716",
+      "published": "2026-11-20T03:16:00+00:00",
+      "summary": "Donald Trump, Xi Jinping, and Vladimir Putin signed a joint peace declaration during an unprecedented three-way summit. The leaders agreed nuclear war cannot be won, but they avoided setting any binding arms control targets. Their symbolic statement also defended state officials from prosecution in international courts.",
+      "why_it_matters": "rival superpowers are talking, but without concrete disarmament deals or agreements to halt current conflicts.",
+      "uncertainty": "The leaders provided no time frame for future dialogue on reducing nuclear risks and preventing weapons proliferation.",
+      "background": "The United States, Russia, and China hold the world's most formidable nuclear arsenals. Relations among the three countries have faced severe strains over territorial disputes and foreign conflicts. Past diplomatic efforts have struggled to bring all three powers into shared arms limitation agreements.",
+      "jargon": [
+        {
+          "term": "trilateral",
+          "meaning": "Involving three distinct parties, groups, or countries working together."
+        },
+        {
+          "term": "nuclear proliferation",
+          "meaning": "The spread of nuclear weapons and related technology to additional nations."
+        }
+      ],
+      "views": [],
+      "importance": "must-know"
+    }
+  ],
+  "briefing": {
+    "big_picture": "Today brings significant global diplomacy as world powers meet for high-profile summits and potential peace talks. At the same time, the business world is reacting to a massive, historic stock market debut from artificial intelligence maker Anthropic.",
+    "top_pick": 5,
+    "top_pick_why": "This unprecedented summit brought the leaders of the United States, China, and Russia together to jointly declare that a nuclear war cannot be won."
+  },
+  "learn": {
+    "term": "Initial public offering (IPO)",
+    "explainer": "An initial public offering, or IPO, happens when a private company sells shares of ownership to the general public for the very first time. Think of it like a private club opening its doors to everyone, allowing everyday people to buy a ticket and own a tiny slice of the organization. Businesses do this to raise substantial amounts of cash to fund research, hire staff, and expand their operations.",
+    "why_in_news": "You are seeing this today because artificial intelligence company Anthropic just made its high-profile debut as a publicly traded company on the stock market."
+  }
+}
