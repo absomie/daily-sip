@@ -1,0 +1,144 @@
+{
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T03:55:42.731646+00:00",
+  "mode": "ai",
+  "stories": [
+    {
+      "category": "Politics & World",
+      "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T02:09:46+00:00",
+      "summary": "A Russian cruise missile crashed inside Poland near a multi-nation Western military exercise. Polish leaders described the airspace breach as an intentional provocation, though no one was injured. The crash occurred during heavy Russian strikes across Ukraine that killed at least eight people.",
+      "why_it_matters": "A Russian missile landing inside NATO territory significantly raises tensions between Moscow and Western allies.",
+      "uncertainty": "Russia has not commented on the incident, leaving its official stance unconfirmed.",
+      "background": "Poland is a NATO member bordering Ukraine, where Russia has been conducting a full-scale war. Fighting near the border has previously caused stray missiles and drones to cross into neighboring territory.",
+      "jargon": [
+        {
+          "term": "Cruise missile",
+          "meaning": "A guided missile designed to fly at low altitudes to hit specific targets accurately."
+        },
+        {
+          "term": "Airspace violation",
+          "meaning": "When a foreign military aircraft or missile enters another nation's controlled skies without permission."
+        }
+      ],
+      "views": [
+        "Polish and UK leaders say the incident was an intentional Russian provocation aimed at dividing European allies.",
+        "Russian officials have made no comment regarding the airspace incursions."
+      ],
+      "importance": "must-know"
+    },
+    {
+      "category": "Politics & World",
+      "title": "Gen Z protests sweep Europe over wars, rising costs and climate",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/gen-z-protests-sweep-europe-over-wars-rising-costs-and-climate?traffic_source=rss",
+      "published": "2026-11-21T02:49:16+00:00",
+      "summary": "",
+      "why_it_matters": "",
+      "uncertainty": "",
+      "background": "",
+      "jargon": [],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Tech",
+      "title": "In a year of AI solving maths problems, Anthropic may have just solved the biggest",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T23:08:57+00:00",
+      "summary": "An artificial intelligence chatbot may have just solved the world's most famous math problem. A researcher reportedly spent six weeks using Anthropic's Claude to write the massive proof. Math experts warn that verifying the huge claim will take a long time.",
+      "why_it_matters": "AI models are tackling deeply complex math, though experts remain cautious about their validity.",
+      "uncertainty": "Mathematicians still need to review and verify whether the AI-generated proof is actually correct.",
+      "background": "The Riemann hypothesis is an extremely complex puzzle involving prime numbers, which are fundamental to higher mathematics. Recently, major artificial intelligence companies have begun claiming their tools can solve long-standing scientific problems.",
+      "jargon": [
+        {
+          "term": "Riemann hypothesis",
+          "meaning": "A famous, highly complex mathematical problem focused on how prime numbers are ordered."
+        },
+        {
+          "term": "Lean",
+          "meaning": "A computer language designed to check and confirm mathematical proofs."
+        }
+      ],
+      "views": [],
+      "importance": "just-for-fun"
+    },
+    {
+      "category": "Money",
+      "title": "Judge approves $7.25bn Bayer payout to settle claims that Roundup causes cancer",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/nov/20/bayer-roundup-cancer-litigation",
+      "published": "2026-11-20T23:42:43+00:00",
+      "summary": "A Missouri judge approved Bayer’s massive $7.25 billion settlement over claims its weedkiller causes cancer. The deal covers roughly 65,000 lawsuits from people who developed illness after using Roundup. The judge ruled that waiting any longer would unfairly delay payments to sick victims.",
+      "why_it_matters": "Bayer is finally closing a costly, multi-year legal battle over whether its weedkiller causes cancer.",
+      "uncertainty": "It remains unclear how the roughly 200 federal lawsuits excluded from this deal will be resolved.",
+      "background": "Bayer bought Monsanto, the original maker of Roundup, in 2018. Since the acquisition, thousands of home and commercial users have sued the company, alleging exposure to the weedkiller caused their cancer.",
+      "jargon": [
+        {
+          "term": "Glyphosate",
+          "meaning": "The active chemical ingredient used in the weedkiller Roundup."
+        },
+        {
+          "term": "Failure-to-warn claim",
+          "meaning": "A lawsuit alleging a company did not properly notify consumers about product risks."
+        }
+      ],
+      "views": [],
+      "importance": "must-know"
+    },
+    {
+      "category": "Money",
+      "title": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T17:49:48+00:00",
+      "summary": "A fresh UK-EU deal will allow 100,000 young people to work and study across borders. The agreement also reduces food export checks and links emissions trading systems. UK leaders estimate the move could boost their national economy by £17 billion annually.",
+      "why_it_matters": "Britain is quietly rebuilding closer economic and cultural ties with Europe after Brexit.",
+      "uncertainty": "Whether both sides can reach an agreement on university tuition fees remains unclear.",
+      "background": "The United Kingdom previously voted to leave the European Union, altering trade and travel rules between them. Since then, leaders have debated how closely aligned the UK economy should remain with European regulations.",
+      "jargon": [
+        {
+          "term": "Emissions trading system",
+          "meaning": "A market-based scheme where companies buy and sell permits allowing them to emit greenhouse gases."
+        },
+        {
+          "term": "Single market",
+          "meaning": "A trade zone allowing goods, services, capital, and people to move freely between member countries."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Thailand & Asia",
+      "title": "Vietnam scraps capital punishment for drug trafficking",
+      "source": "CNA",
+      "url": "https://www.channelnewsasia.com/asia/vietnam-death-penalty-abolish-crime-6571011",
+      "published": "2026-11-21T02:02:13+00:00",
+      "summary": "Vietnam has officially removed the death penalty for drug trafficking alongside several other serious crimes. Execution is now restricted to just four offences, including terrorism and illegal drug production. Offenders facing these removed charges will instead receive a maximum sentence of life imprisonment.",
+      "why_it_matters": "Vietnam is continuing a long-term trend of narrowing the crimes eligible for execution.",
+      "uncertainty": "Vietnam's government has never publicly disclosed the exact number of people it executes.",
+      "background": "Vietnam previously applied the death penalty to dozens of legal offences in past decades. Lethal injection replaced firing squads as the official execution method in recent years.",
+      "jargon": [
+        {
+          "term": "Capital punishment",
+          "meaning": "The execution of an individual as a court-ordered punishment for a serious crime."
+        },
+        {
+          "term": "Penal code",
+          "meaning": "An official collection of laws that outlines criminal acts and their legal penalties."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    }
+  ],
+  "briefing": {
+    "big_picture": "Today's news brings major legal and economic developments, from a $7.25 billion settlement over Roundup cancer claims to a new UK-EU deal boosting trade and youth mobility. Global affairs also see notable shifts, including Vietnam scaling back its use of the death penalty alongside heightened security concerns in Eastern Europe.",
+    "top_pick": 3,
+    "top_pick_why": "This massive $7.25 billion settlement resolves roughly 65,000 lawsuits to deliver delayed compensation to sick victims."
+  }
+}
