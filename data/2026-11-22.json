@@ -1,0 +1,126 @@
+{
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T03:47:01.862241+00:00",
+  "mode": "ai",
+  "stories": [
+    {
+      "category": "Politics & World",
+      "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-22T01:25:03+00:00",
+      "summary": "After evading capture for decades by keeping a low profile, a major drug lord was arrested in Mexico. The targeted raid escalated into a heavy shootout, leaving 11 people dead. Mexican forces used intelligence from the United States to locate and surround the suspect.",
+      "why_it_matters": "Mexico is aggressively targeting cartel leaders to stem drug flows and prevent direct American intervention.",
+      "uncertainty": "Online videos appearing to show military helicopters firing at the ground during the raid remain officially unverified.",
+      "background": "Drug cartels have long driven intense violence and illegal drug trafficking across the region. Mexico has recently increased its crackdowns under growing diplomatic pressure from the United States to stop illicit drug flows.",
+      "jargon": [
+        {
+          "term": "Extradition",
+          "meaning": "The formal process of handing over an accused criminal to another country for trial."
+        },
+        {
+          "term": "Cartel",
+          "meaning": "An organized criminal group that controls the illegal drug trade."
+        }
+      ],
+      "views": []
+    },
+    {
+      "category": "Politics & World",
+      "title": "Man found dead on Flinders Island believed to have been shot by officer, police say",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/22/man-found-dead-on-flinders-island-linked-to-shooting-of-police-officer-tasmanian-authorities-say",
+      "published": "2026-11-22T02:44:01+00:00",
+      "summary": "A police sergeant on remote Flinders Island was shot outside his station in a suspected targeted attack. After returning fire, the injured officer reportedly shot and killed a man in his mid-20s nearby. The officer underwent surgery and remains in serious condition while forensic teams investigate the incident.",
+      "why_it_matters": "A rare, targeted shooting of a police officer has shaken a small island community in Tasmania.",
+      "uncertainty": "Authorities have not yet confirmed the full details of the attack or contacted the deceased man's family.",
+      "background": "Flinders Island is an isolated community located northeast of Tasmania's mainland with fewer than one thousand residents. Shootings of police officers in the state are uncommon, though another officer was killed during a court repossession last year.",
+      "jargon": [],
+      "views": []
+    },
+    {
+      "category": "Tech",
+      "title": "Can AI really help spot Black Friday deals? We put it to the test",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T00:06:11+00:00",
+      "summary": "Artificial intelligence tools often fail at finding real shopping discounts by serving dead links and wrong prices. Tests of four popular chatbots revealed recommendations for sold-out televisions or products far over budget. Consequently, 36% of Black Friday shoppers do not plan to use chatbots at all.",
+      "why_it_matters": "AI chatbots are currently too unreliable for live price tracking to guarantee real shopping bargains.",
+      "uncertainty": "It is still unclear whether newer agentic AI features can accurately process rapidly changing live price data.",
+      "background": "Black Friday is a massive retail event where stores promote discounted prices on thousands of items. Tech companies recently introduced shopping features to their chatbots, pitching them as smart assistants to navigate crowded sales.",
+      "jargon": [
+        {
+          "term": "Agentic AI",
+          "meaning": "Artificial intelligence designed to independently carry out multi-step tasks with more autonomy."
+        },
+        {
+          "term": "Generative AI",
+          "meaning": "AI systems capable of creating text, answers, or content based on user prompts."
+        }
+      ],
+      "views": []
+    },
+    {
+      "category": "Money",
+      "title": "Sessions offer advice on rising energy costs",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cmy49l3x893jo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T12:09:49+00:00",
+      "summary": "Typical household gas and electricity bills are forecast to jump by £443 starting in January. To help, a local charity is hosting free community sessions across Devon to offer financial advice. Attendees can access personalized bill support and pick up free winter warm packs while supplies last.",
+      "why_it_matters": "Free local support sessions are stepping in to help residents navigate surging winter energy bills.",
+      "uncertainty": "The exact size of future energy price hikes remains uncertain beyond current projections.",
+      "background": "Many rural homes lack access to mains gas and depend on heating oil to stay warm. As energy costs climb, families are forced to make tough decisions about daily expenses.",
+      "jargon": [
+        {
+          "term": "Smart meter",
+          "meaning": "A device that automatically tracks energy usage and sends the data straight to your supplier."
+        },
+        {
+          "term": "Mains gas",
+          "meaning": "Natural gas delivered to buildings through a central network of underground pipes."
+        }
+      ],
+      "views": []
+    },
+    {
+      "category": "Money",
+      "title": "California train burglars carefully executed heists for ‘staggering’ $22m haul",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/nov/21/california-arrests-train-heists",
+      "published": "2026-11-22T00:20:41+00:00",
+      "summary": "Thieves jumped onto moving freight trains and cut air hoses to force dangerous emergency stops. Federal prosecutors charged 14 people for allegedly stealing products worth over $22 million. The crew reportedly stashed thousands of stolen sneakers and tools to sell illegally.",
+      "why_it_matters": "High-tech train robberies endanger supply chains and create serious risks of train derailments.",
+      "uncertainty": "Court documents do not list defense attorneys for any of the accused individuals.",
+      "background": "Freight trains move valuable merchandise across the country, making them targets for organized theft ring operations. While train robberies evoke historical outlaw tales, modern thieves target high-end consumer goods to resell.",
+      "jargon": [
+        {
+          "term": "black market",
+          "meaning": "An illegal system where stolen or unlawful goods are bought and sold."
+        },
+        {
+          "term": "encrypted messaging",
+          "meaning": "A secure method of communication that scrambles text so only intended recipients can read it."
+        }
+      ],
+      "views": []
+    },
+    {
+      "category": "Thailand & Asia",
+      "title": "Travel more, spend less: how mainland China’s weak consumer mood shapes outbound tourism",
+      "source": "Bangkok Post",
+      "url": "https://www.bangkokpost.com/business/general/3359251/travel-more-spend-less-how-mainland-chinas-weak-consumer-mood-shapes-outbound-tourism",
+      "published": "2026-11-22T03:08:00+00:00",
+      "summary": "Chinese tourists are taking more trips abroad this year while spending less overall. According to Bangkok Post, spending is projected to fall by 4.3% compared to last year. Travelers are choosing nearby destinations and prioritizing budget-friendly options.",
+      "why_it_matters": "Chinese tourists are still traveling, but they are keeping a much tighter grip on their wallets.",
+      "uncertainty": "",
+      "background": "Mainland Chinese travelers represent a major portion of international travel spending worldwide. When economic caution takes hold, tourists often adjust by picking cheaper, closer destinations to save money.",
+      "jargon": [
+        {
+          "term": "Outbound spending",
+          "meaning": "Money spent by tourists while visiting foreign countries."
+        }
+      ],
+      "views": []
+    }
+  ]
+}
