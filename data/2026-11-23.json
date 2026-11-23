@@ -1,0 +1,126 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T03:55:16.589874+00:00",
+  "mode": "ai",
+  "stories": [
+    {
+      "category": "Politics & World",
+      "title": "Ukraine war spilling into NATO territory",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/22/nx-s1-6050236/ukraine-war-spilling-into-nato-territory",
+      "published": "2026-11-22T22:40:22+00:00",
+      "summary": "Finland helped extinguish a fire on a sanctioned Russian military cargo ship hit by a drone. Finnish officials then allowed Russia to tow the vessel away to prevent an environmental disaster. Meanwhile, three Russian cruise missiles recently landed inside Polish territory near a multinational military exercise.",
+      "why_it_matters": "the war in Ukraine is increasingly crossing borders into neighboring European nations.",
+      "uncertainty": "Ukraine has not officially claimed responsibility for the drone strike on the Russian cargo ship.",
+      "background": "Russia and Ukraine are engaged in an ongoing war that occasionally spills into neighboring European countries. NATO is a Western military alliance whose members agree to defend each other if attacked.",
+      "jargon": [
+        {
+          "term": "Sanctions",
+          "meaning": "Penalties placed on a country or business to restrict trade and financial activity."
+        },
+        {
+          "term": "NATO",
+          "meaning": "A military alliance of countries that promise to defend each other against attacks."
+        }
+      ],
+      "views": []
+    },
+    {
+      "category": "Politics & World",
+      "title": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-23T01:23:43+00:00",
+      "summary": "",
+      "why_it_matters": "",
+      "uncertainty": "",
+      "background": "",
+      "jargon": [],
+      "views": []
+    },
+    {
+      "category": "Tech",
+      "title": "It will soon be too late to regulate use of autonomous weapons, warns Red Cross",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/science/2026/nov/22/red-cross-warns-too-late-regulate-autonomous-weapons-united-nations",
+      "published": "2026-11-22T09:00:22+00:00",
+      "summary": "Artificial intelligence is already directing military attacks, yet global leaders just failed to agree on regulating these autonomous weapons. Experts warn that fast-moving technology could soon make strict international limits impossible to enforce. Without binding rules, militaries and private companies will shape how automated warfare unfolds.",
+      "why_it_matters": "Without international rules, military AI could quickly lead to unchecked automated warfare and civilian harm.",
+      "uncertainty": "It remains uncertain whether global leaders will find the political will needed to pass legally binding regulations.",
+      "background": "Autonomous weapons rely on software and robotics to select or hit targets without human intervention. Nations and humanitarian groups have long debated regulating these systems at international forums to prevent civilian harm. However, rapid advances in artificial intelligence are outstripping global diplomatic efforts to set boundaries.",
+      "jargon": [
+        {
+          "term": "Autonomous weapons",
+          "meaning": "Military systems that can select or engage targets without direct human control."
+        },
+        {
+          "term": "Swarm capabilities",
+          "meaning": "Networks of many robotic weapons operating together automatically to carry out a single attack."
+        }
+      ],
+      "views": []
+    },
+    {
+      "category": "Money",
+      "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "published": "2026-11-20T21:38:17+00:00",
+      "summary": "The tech-heavy Nasdaq wiped out roughly $4 trillion in value this week during a massive global sell-off. Even a record-breaking stock market debut from AI firm Anthropic failed to calm nervous investors. Wall Street is increasingly worried that huge spending on artificial intelligence will not yield matching returns.",
+      "why_it_matters": "Investors are growing anxious that massive investments in artificial intelligence will not deliver expected profits.",
+      "uncertainty": "Analysts are unsure if this market decline is a temporary dip or the start of a deeper trend.",
+      "background": "Tech companies have spent billions building out artificial intelligence technology in hopes of big future profits. Investors initially rushed to buy shares in these firms, driving stock market indices higher. Now, market sentiment is shifting as spending concerns grow.",
+      "jargon": [
+        {
+          "term": "IPO",
+          "meaning": "Initial Public Offering, which is the very first time a company sells stock shares to the public."
+        },
+        {
+          "term": "Correction territory",
+          "meaning": "A period when stock prices drop substantially from a recent high point."
+        }
+      ],
+      "views": []
+    },
+    {
+      "category": "Money",
+      "title": "UK taxpayers held more than £1tn in offshore tax havens, latest HMRC data shows",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/nov/22/uk-taxpayer-funds-held-in-offshore-tax-havens-top-1tn-latest-hmrc-data-shows",
+      "published": "2026-11-22T15:43:01+00:00",
+      "summary": "UK taxpayers now hold over £1tn in offshore tax havens for the first time. Balances in these accounts grew 10% recently, according to reported tax authority data. Officials struggle to recover unpaid taxes because many accounts lack clear identifier details.",
+      "why_it_matters": "Uncollected tax revenues from hidden offshore accounts reduce funds available for public spending.",
+      "uncertainty": "The total amount of tax going unpaid on offshore holdings remains unclear due to delayed official reporting.",
+      "background": "Tax havens attract foreign wealth by offering low tax rates and financial privacy. International agreements require governments to share banking data to help catch non-compliant account holders.",
+      "jargon": [
+        {
+          "term": "tax haven",
+          "meaning": "A country or territory offering low tax rates and financial secrecy to foreign investors."
+        },
+        {
+          "term": "tax evasion",
+          "meaning": "The illegal practice of deliberately hiding income or assets to avoid paying tax."
+        }
+      ],
+      "views": []
+    },
+    {
+      "category": "Thailand & Asia",
+      "title": "South Korea education minister resigns over exam cheating scandal",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-22T09:20:45+00:00",
+      "summary": "South Korea triggered nationwide emergency alerts during a college entrance exam to catch hidden artificial intelligence devices. The chaotic anti-cheating measures prompted the country's education minister to resign shortly after the test. Officials eventually caught 111 students carrying unauthorized smart tech during the exam.",
+      "why_it_matters": "High-tech cheating fears led to drastic measures that disrupted a major national exam, sparking a cabinet resignation.",
+      "uncertainty": "",
+      "background": "The Suneung is South Korea's intense annual college entrance exam that plays a massive role in students' future career paths. High-stakes testing in the country creates intense competition, raising ongoing concerns over academic dishonesty.",
+      "jargon": [
+        {
+          "term": "Suneung",
+          "meaning": "South Korea's high-stakes annual college entrance exam that heavily influences a student's career trajectory."
+        }
+      ],
+      "views": []
+    }
+  ]
+}
