@@ -1,0 +1,137 @@
+{
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T03:54:44.528995+00:00",
+  "mode": "ai",
+  "stories": [
+    {
+      "category": "Politics & World",
+      "title": "How Nvidia is reacting to Jensen Huang's return as CEO",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/videos/ckedq2edqegzo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-24T01:21:41+00:00",
+      "summary": "President Trump says he brokered a deal to return Jensen Huang to Nvidia. On Monday, Nvidia's board unanimously voted to reinstate Huang as CEO and president. BBC News is currently reporting from headquarters to measure how employees feel about the news.",
+      "why_it_matters": "Nvidia brought back its top executive after political figures claimed to broker the agreement.",
+      "uncertainty": "The extent of Trump's actual involvement in the deal remains unconfirmed.",
+      "background": "Nvidia is a major technology firm managed by executive leaders and a governing board. A board of directors holds the authority to hire or reinstate a company's chief executive.",
+      "jargon": [
+        {
+          "term": "CEO",
+          "meaning": "The top executive responsible for making major corporate decisions and managing overall operations."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Politics & World",
+      "title": "Australian politics live: Greens secure ‘multibillion dollar fines’ for big tech in digital duty of care; ANZ predicts RBA will cut rates in June",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/live/2026/nov/24/labor-penny-wong-us-china-anthony-albanese-final-sitting-week-ntwnfb",
+      "published": "2026-11-24T03:22:17+00:00",
+      "summary": "Australia plans to hit major tech platforms with fines reaching $109 million for causing online harm. Under a new agreement, citizens will also gain the legal right to sue these companies. Meanwhile, Australian officials are finalizing a budget update focused on modest net spending cuts.",
+      "why_it_matters": "Australia is holding tech platforms accountable while making modest budget adjustments amid market volatility.",
+      "uncertainty": "The specific spending cuts and exact release date for the upcoming budget report are not yet finalized.",
+      "background": "Governments around the world are pushing for stricter regulations to make digital spaces safer for users. Australia regularly updates its fiscal policy mid-year to respond to global market changes and domestic needs.",
+      "jargon": [
+        {
+          "term": "Digital duty of care",
+          "meaning": "A legal obligation for online platforms to protect their users from harm."
+        },
+        {
+          "term": "MYEFO",
+          "meaning": "A mid-year report detailing updates to Australia's government budget and economic forecast."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Tech",
+      "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-23T23:16:08+00:00",
+      "summary": "A former executive at Megaspeed allegedly spied for China while having an affair with Nvidia's CEO. Consequently, the US plans to blacklist the Singaporean AI firm for allegedly smuggling advanced chips to Beijing. China denied the spying allegations and warned Washington against imposing a tech blockade.",
+      "why_it_matters": "Washington is cracking down on foreign firms suspected of slipping restricted AI technology into China.",
+      "uncertainty": "It is currently unclear when the official US ban on Megaspeed will take effect.",
+      "background": "Nvidia designs advanced computer chips that power modern artificial intelligence models and tools. The US government regulates chip sales to limit China's access to this vital technology. Megaspeed is a Singapore-based data center developer that bought billions in Nvidia hardware.",
+      "jargon": [
+        {
+          "term": "Export controls",
+          "meaning": "Government restrictions that limit selling specific technologies or products to foreign nations."
+        },
+        {
+          "term": "Blacklist",
+          "meaning": "An official list of foreign entities forbidden from buying or selling goods with a country."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Money",
+      "title": "From Wall Street to Main Street, how artificial intelligence is affecting the economy",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/23/nx-s1-6048690/from-wall-street-to-main-street-how-artificial-intelligence-is-affecting-the-economy",
+      "published": "2026-11-23T11:46:29+00:00",
+      "summary": "Massive spending on artificial intelligence is currently driving up prices for electronics and construction materials. Major stock indexes dropped by 8% last week as investors questioned these huge tech bets. Meanwhile, only one in five surveyed businesses reports widespread productivity gains from the technology so far.",
+      "why_it_matters": "Heavy AI spending could force the Federal Reserve to raise interest rates on everyday loans.",
+      "uncertainty": "It remains unclear whether massive corporate investments in artificial intelligence will ultimately pay off.",
+      "background": "Companies are investing heavily in artificial intelligence tools to automate tasks and boost efficiency. Central banks closely monitor massive corporate spending sprees to evaluate their impact on consumer prices.",
+      "jargon": [
+        {
+          "term": "Initial Public Offering (IPO)",
+          "meaning": "When a private company sells stock to the public for the first time to raise money."
+        },
+        {
+          "term": "Inflation",
+          "meaning": "A general increase in prices over time, which reduces the purchasing power of your money."
+        }
+      ],
+      "views": [],
+      "importance": "must-know"
+    },
+    {
+      "category": "Money",
+      "title": "Nvidia’s value jumped by $950bn as shares close at $165.05 after surprise return of CEO Jensen Huang – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/nov/23/tech-sell-off-ai-stock-market-support-measures-deployed-south-korea-taiwan-china-ftse-nasdaq-latest-news-updates",
+      "published": "2026-11-23T21:24:07+00:00",
+      "summary": "Jensen Huang unexpectedly returned to lead Nvidia following a scandal with a suspected spy. His comeback sparked the biggest single-day stock value jump in United States history. Yet the company's valuation remains half a trillion dollars below its recent peak.",
+      "why_it_matters": "A high-profile executive's sudden comeback can instantly restore massive investor confidence across entire financial markets.",
+      "uncertainty": "The article notes that the person connected to the executive was only a suspected spy.",
+      "background": "Nvidia is a prominent technology firm whose executive leadership influences major market movements. Sudden changes in corporate leadership frequently trigger dramatic shifts in stock values.",
+      "jargon": [
+        {
+          "term": "Nasdaq Composite",
+          "meaning": "A major stock index that tracks performance across thousands of technology-heavy companies."
+        },
+        {
+          "term": "Valuation",
+          "meaning": "The total estimated worth of a public company based on its current share price."
+        }
+      ],
+      "views": [],
+      "importance": "must-know"
+    },
+    {
+      "category": "Thailand & Asia",
+      "title": "Thai EV registrations surge as incentive scheme nears expiry",
+      "source": "Bangkok Post",
+      "url": "https://www.bangkokpost.com/business/motoring/3360124/thai-ev-registrations-surge-as-incentive-scheme-nears-expiry",
+      "published": "2026-11-23T23:00:00+00:00",
+      "summary": "",
+      "why_it_matters": "",
+      "uncertainty": "",
+      "background": "",
+      "jargon": [],
+      "views": [],
+      "importance": "just-for-fun"
+    }
+  ],
+  "briefing": {
+    "big_picture": "Corporate shakeups and tech developments lead today's news, highlighted by Jensen Huang's return as CEO of Nvidia following a high-profile scandal. Meanwhile, massive investments in artificial intelligence are starting to ripple through the economy by pushing up everyday prices.",
+    "top_pick": 3,
+    "top_pick_why": "It explains how heavy spending on artificial intelligence is directly raising prices for construction materials and everyday electronics."
+  }
+}
