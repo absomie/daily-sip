@@ -1,0 +1,144 @@
+{
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T03:54:42.974001+00:00",
+  "mode": "ai",
+  "stories": [
+    {
+      "category": "Politics & World",
+      "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-25T02:59:27+00:00",
+      "summary": "A US jury rejected claims that Huawei acts as a criminal enterprise, despite finding it guilty of bank fraud. Prosecutors accused the Chinese telecommunications giant of stealing technology secrets to gain an edge over rivals. Huawei was convicted on 10 counts and plans to appeal after sentencing.",
+      "why_it_matters": "Huawei dodged the most severe criminal charges but still faces significant legal penalties in America.",
+      "uncertainty": "It remains unclear what sentence the company will receive when a judge rules in September 2027.",
+      "background": "US prosecutors first charged the Chinese technology giant following the arrest of a senior executive in Canada. The executive was released years later after reaching a deal with federal prosecutors.",
+      "jargon": [
+        {
+          "term": "Racketeering",
+          "meaning": "Conducting illegal business activities as part of an ongoing criminal enterprise."
+        },
+        {
+          "term": "Trade secrets",
+          "meaning": "Confidential technical or business information that provides a competitive advantage."
+        }
+      ],
+      "views": [
+        "US prosecutors say Huawei built its business on decades of lies and corporate theft.",
+        "Huawei's defense says the company succeeded through innovation and called the criminal enterprise charge major overreach."
+      ],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Politics & World",
+      "title": "The U.S. government is investigating Iranian ties to as many as 50 hacked commercial vessels",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/24/nx-s1-6052994/hack-commercial-vessels-iran",
+      "published": "2026-11-24T21:04:50+00:00",
+      "summary": "Hackers reportedly accessed physical control systems on commercial ships, including steering and cargo management. The U.S. government suspects Iran may be linked to cyberattacks targeting up to 50 vessels. Fortunately, officials say these digital breaches have not caused operational disruptions or physical damage yet.",
+      "why_it_matters": "cyberattacks on commercial ships could threaten global supply chains and physical maritime safety.",
+      "uncertainty": "Officials have not confirmed whether hackers actually manipulated the physical control systems on any compromised vessels.",
+      "background": "Modern commercial vessels rely heavily on internet-connected networks that link communication systems with physical machinery. While physical port security is routine, remote digital threats to ships represent a relatively new vulnerability for global trade.",
+      "jargon": [
+        {
+          "term": "operational technology",
+          "meaning": "Technology that directly monitors and controls physical processes, such as ship propulsion or steering."
+        },
+        {
+          "term": "unpatched vulnerabilities",
+          "meaning": "Known security flaws in software or hardware that have not yet been fixed with an update."
+        }
+      ],
+      "views": [],
+      "importance": "must-know"
+    },
+    {
+      "category": "Tech",
+      "title": "Tidal bans 100% AI-generated music with plans to delete more than 27m tracks",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/music/2026/nov/25/tidal-streaming-service-bans-ai-generated-music",
+      "published": "2026-11-25T02:12:22+00:00",
+      "summary": "Nearly half of all recent song uploads to the music platform Tidal were created entirely by artificial intelligence. To ensure human musicians get paid fairly, the service is officially banning fully AI-generated tracks. Beginning in December, Tidal plans to delete more than 27 million synthetic songs.",
+      "why_it_matters": "Streaming platforms are beginning to draw hard lines against computer-made content clogging music catalogs.",
+      "uncertainty": "",
+      "background": "Tidal is a music streaming service known for focusing on high sound quality and artist payouts. As AI tools make generating songs fast and easy, music platforms are grappling with how to handle automated tracks.",
+      "jargon": [
+        {
+          "term": "metadata",
+          "meaning": "Data stored inside a digital file that provides details about its creation and contents."
+        },
+        {
+          "term": "audio fidelity",
+          "meaning": "The level of clarity and precision with which a sound recording is reproduced."
+        }
+      ],
+      "views": [],
+      "importance": "just-for-fun"
+    },
+    {
+      "category": "Money",
+      "title": "Many families are cutting corners at the grocery store to pay their other bills",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/24/nx-s1-6047499/many-families-are-cutting-corners-at-the-grocery-store-to-pay-their-other-bills",
+      "published": "2026-11-24T22:45:01+00:00",
+      "summary": "",
+      "why_it_matters": "",
+      "uncertainty": "",
+      "background": "",
+      "jargon": [],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Money",
+      "title": "What should it cost to insure a home in wildfire country?",
+      "source": "NPR",
+      "url": "https://www.npr.org/sections/planet-money/2026/11/24/g-s1-154477/what-should-it-cost-to-insure-a-home-in-wildfire-country",
+      "published": "2026-11-24T11:30:00+00:00",
+      "summary": "Major insurance companies fund a South Carolina lab that burns mock houses to test wildfire safety. Yet homeowners making costly fireproof upgrades report receiving tiny discounts on their insurance bills. Meanwhile, insurers are declining policy renewals, forcing some California residents onto state-backed last-resort plans.",
+      "why_it_matters": "Wildfire threats are making home insurance increasingly expensive and hard to find in high-risk areas.",
+      "uncertainty": "It remains unclear whether small insurance discounts accurately reflect expected savings on wildfire claims.",
+      "background": "Homeowners in fire-prone regions face growing challenges finding reliable, affordable insurance coverage. Insurers conduct research to measure property risks and limit payouts when natural disasters strike.",
+      "jargon": [
+        {
+          "term": "Moral hazard",
+          "meaning": "The concept that having insurance may reduce your incentive to invest in risk-lowering upgrades."
+        },
+        {
+          "term": "FAIR Plan",
+          "meaning": "California's state-backed insurer of last resort when private home coverage is unavailable."
+        }
+      ],
+      "views": [],
+      "importance": "must-know"
+    },
+    {
+      "category": "Thailand & Asia",
+      "title": "Solomon Islands ends controversial security pact with China for Australian treaty",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/ckdd1z2gvlgno?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-25T03:15:12+00:00",
+      "summary": "The Solomon Islands reportedly told Beijing it is ending its controversial security pact with China. Instead, the Pacific nation signed a historic treaty designating Australia as its security partner of choice. The agreement bans foreign military bases while securing Australian funding for infrastructure and energy.",
+      "why_it_matters": "Australia restored its position as the primary security partner for a strategically key Pacific island nation.",
+      "uncertainty": "China's foreign ministry did not confirm or deny that its security pact with the country was terminated.",
+      "background": "The Solomon Islands is located in a Pacific region marked by growing strategic competition between major powers. A previous agreement allowing Chinese security involvement raised concerns among Western nations and nearby neighbours. Australia has since focused on strengthening regional security ties to ensure stability.",
+      "jargon": [
+        {
+          "term": "Non-disclosure agreement",
+          "meaning": "A legal contract that restricts parties from publicly sharing certain confidential information."
+        },
+        {
+          "term": "Pacific Islands Forum",
+          "meaning": "A regional grouping of Pacific nations focused on shared security and policy decisions."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    }
+  ],
+  "briefing": {
+    "big_picture": "Today's digest highlights shifting global security ties alongside tech and financial challenges affecting everyday life. From cyber investigations on shipping networks to major policy changes on music platforms and home insurance, big decisions are reshaping tech, safety, and spending.",
+    "top_pick": 4,
+    "top_pick_why": "This story highlights a direct hit to household budgets and safety, showing why costly home wildfire upgrades are failing to protect people from rising insurance challenges."
+  }
+}
