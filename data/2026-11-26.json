@@ -1,0 +1,152 @@
+{
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T04:08:29.765370+00:00",
+  "mode": "ai",
+  "stories": [
+    {
+      "category": "Politics & World",
+      "title": "US announces new tariffs on host of countries including China",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-26T03:01:40+00:00",
+      "summary": "China faces import taxes of up to 40% under fresh US trade proposals targeting over a dozen partners. The planned measures follow earlier tariffs that were struck down by the US Supreme Court. These new duties require public consultation and would not take effect until next year.",
+      "why_it_matters": "Higher import taxes could raise everyday prices for consumers and strain global trade alliances.",
+      "uncertainty": "It remains unclear how upcoming legal challenges and public consultations might alter the proposed tariff rates.",
+      "background": "Tariffs are taxes paid by domestic businesses when they import foreign products. Governments frequently use these levies to shield domestic factories from overseas competitors and shrink trade imbalances.",
+      "jargon": [
+        {
+          "term": "Tariff",
+          "meaning": "A tax a government charges companies on goods imported from other countries."
+        },
+        {
+          "term": "Trade deficit",
+          "meaning": "When a country buys more foreign goods than it sells to other nations."
+        }
+      ],
+      "views": [
+        "Supporters, including the US Trade Representative, say the duties protect American workers and counter unfair foreign manufacturing practices.",
+        "Critics, including foreign officials and economists, argue the measures manipulate trade, strain diplomacy, and risk fueling domestic inflation."
+      ],
+      "importance": "must-know"
+    },
+    {
+      "category": "Politics & World",
+      "title": "Australian politics live: Liberals ‘tossing up whether to leave or remain’, Albanese says; Coalition warns energy prices to cause Christmas ‘pain’",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/live/2026/nov/26/labor-anthony-albanese-pauline-hanson-one-nation-angus-taylor-coalition-ntwnfb",
+      "published": "2026-11-26T03:33:25+00:00",
+      "summary": "Australian lawmakers engaged in fierce debate over whether the national economy is fundamentally broken. Opposition politicians claimed interest rate hikes left average new mortgage holders thirty thousand dollars worse off. The prime minister countered that record employment numbers show conditions are heading in the right direction.",
+      "why_it_matters": "Rising living costs and mortgage stress are dominating the political battle lines for everyday Australians.",
+      "uncertainty": "The treasurer declined to name any major advanced economy experiencing higher core inflation than Australia.",
+      "background": "In Australia's parliamentary system, the government and opposition clash regularly over the management of the economy. These question sessions allow politicians to spar over living costs and test rival policy plans.",
+      "jargon": [
+        {
+          "term": "Coalition",
+          "meaning": "An alliance of center-right political parties currently serving as the opposition in Australia's parliament."
+        },
+        {
+          "term": "dixer",
+          "meaning": "A friendly, pre-arranged question from a lawmaker designed to let their own party promote a policy."
+        }
+      ],
+      "views": [
+        "Critics say government policies have broken the economy and forced mortgage holders to absorb painful financial strain.",
+        "Supporters say strong job growth and a narrowing gender pay gap demonstrate that the economy is progressing."
+      ],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Tech",
+      "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-25T10:52:09+00:00",
+      "summary": "A US jury cleared tech giant Huawei of operating as a criminal enterprise. However, jurors convicted the company on 10 other counts, including bank fraud and trade secret theft. Huawei plans to appeal the ruling after its scheduled September 2027 sentencing.",
+      "why_it_matters": "a high-profile US case against Huawei ended in a mixed verdict with future appeals planned.",
+      "uncertainty": "It is unclear what sentence Huawei will receive or whether its planned legal appeals will succeed.",
+      "background": "Huawei is a major Chinese telecommunications company with operations around the globe. US authorities spent years investigating the firm over allegations of sanctions violations and technological theft.",
+      "jargon": [
+        {
+          "term": "Racketeering",
+          "meaning": "Running an illegal enterprise or scheme to conduct continuous criminal business."
+        },
+        {
+          "term": "RICO",
+          "meaning": "A US law used to prosecute individuals or companies acting as organized criminal groups."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Money",
+      "title": "UK food inflation could hit 5% next year, Bank of England says",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/nov/25/uk-food-inflation-sharp-rise-next-year-mounting-cost-pressures-bank-of-england",
+      "published": "2026-11-25T19:25:57+00:00",
+      "summary": "Fierce competition among supermarkets has kept recent UK grocery price hikes lower than expected. However, official forecasts warn food inflation could climb to 5% next year. Higher energy bills and weather events are expected to push shopping costs back up soon.",
+      "why_it_matters": "Grocery bills will likely get more expensive next year despite recent supermarket discount wars.",
+      "uncertainty": "The full impact of the El Niño weather pattern on global food prices remains unclear.",
+      "background": "Food inflation tracks how quickly the price of grocery items rises over time. Central banks adjust interest rates to help keep inflation under control. When supply chains or energy costs face pressure, producers often pass those higher expenses along to consumers.",
+      "jargon": [
+        {
+          "term": "Inflation",
+          "meaning": "The rate at which prices for goods and services increase over time."
+        },
+        {
+          "term": "El Niño",
+          "meaning": "A periodic weather pattern that warms ocean waters, often disrupting climate conditions and crop yields worldwide."
+        }
+      ],
+      "views": [],
+      "importance": "must-know"
+    },
+    {
+      "category": "Money",
+      "title": "Inflation is still hot, fueled in part by the AI boom",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/25/nx-s1-6053958/inflation-is-still-hot-fueled-in-part-by-the-ai-boom",
+      "published": "2026-11-25T22:04:36+00:00",
+      "summary": "",
+      "why_it_matters": "",
+      "uncertainty": "",
+      "background": "",
+      "jargon": [],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Thailand & Asia",
+      "title": "Chiang Rai, Prachin Buri hobbled by pollution issues",
+      "source": "Bangkok Post",
+      "url": "https://www.bangkokpost.com/business/general/3361274/chiang-rai-prachin-buri-hobbled-by-pollution-issues",
+      "published": "2026-11-25T22:51:00+00:00",
+      "summary": "Canceled bookings are hitting local tourism operators in Chiang Rai and Prachin Buri hard. Toxic river pollution and industrial waste have severely hurt traveler confidence in these regions. According to the Bangkok Post, this slump complicates national plans to promote nature-based travel.",
+      "why_it_matters": "Pollution concerns are scaring off tourists and undermining Thailand's eco-tourism goals.",
+      "uncertainty": "",
+      "background": "Thailand relies heavily on travel to boost its economy, frequently promoting its scenic landscapes. Local regions often highlight outdoor activities and wellness retreats to attract visitors. Environmental issues can quickly damage these eco-friendly travel goals.",
+      "jargon": [
+        {
+          "term": "nature-based tourism",
+          "meaning": "Travel centered around visiting and enjoying natural environments and outdoor activities."
+        },
+        {
+          "term": "industrial waste",
+          "meaning": "Unwanted chemical or physical leftovers produced by factories and manufacturing facilities."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    }
+  ],
+  "briefing": {
+    "big_picture": "Economic news takes center stage today, with updates on proposed US trade tariffs and expected increases in UK grocery bills. Around the world, communities are also navigating political debates over living costs and local pollution challenges.",
+    "top_pick": 3,
+    "top_pick_why": "Knowing that UK grocery inflation could reach five percent next year helps you stay informed about potential changes to your household budget."
+  },
+  "learn": {
+    "term": "Import tariff",
+    "explainer": "An import tariff is a tax levied by a government on foreign goods when they enter a country. Think of it like an extra venue fee added to outside food brought into a movie theater, making local snacks look much cheaper by comparison. Governments use these taxes to protect domestic businesses from overseas competition or to gain bargaining power in international trade.",
+    "why_in_news": "This concept is making headlines as the United States announces new tariffs on imports from China and several other nations."
+  }
+}
