@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T03:55:19.734399+00:00",
+  "mode": "ai",
+  "stories": [
+    {
+      "category": "Politics & World",
+      "title": "Zelenskyy warns of major Russian attack as Trump urges Putin to ‘pull back’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/27/zelenskyy-warns-of-major-russian-attack-as-trump-urges-putin-to-pull-back?traffic_source=rss",
+      "published": "2026-11-27T02:14:25+00:00",
+      "summary": "Ukraine warns that a major Russian strike is imminent following recent heavy attacks across the country. Donald Trump reportedly urged Vladimir Putin to end military aggression in Europe to enable a peace deal. Meanwhile, Ukrainian forces expanded maritime attacks, targeting several Russian vessels in distant seas.",
+      "why_it_matters": "Escalating military strikes and intense diplomatic negotiations are shaping the trajectory of the ongoing war.",
+      "uncertainty": "It remains unclear whether European Union leaders will agree on a new funding package for Ukraine.",
+      "background": "Russia launched an invasion of Ukraine, leading to a long war involving heavy airstrikes and combat. Ukraine relies heavily on international financial and military support to sustain its defense.",
+      "jargon": [
+        {
+          "term": "corvette",
+          "meaning": "A small, fast warship used by navies for patrol and combat operations."
+        },
+        {
+          "term": "ballistic missile",
+          "meaning": "A rocket-powered missile that flies high into the atmosphere before descending rapidly onto its target."
+        }
+      ],
+      "views": [
+        "Kremlin officials call Ukrainian strikes on Russian vessels a very dangerous trend.",
+        "German leaders maintain that European nations must make a collective commitment to continue supporting Ukraine."
+      ],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Politics & World",
+      "title": "Congo Ebola outbreak reaches 12,000 cases as some responders evacuate",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/26/g-s1-155957/congo-ebola-responders",
+      "published": "2026-11-26T13:47:09+00:00",
+      "summary": "Active armed conflict in eastern Congo is severely hindering response efforts to the country's deadliest Ebola outbreak. The virus strain has infected over 12,000 people and currently lacks any approved vaccine or treatment. Health workers have even been trapped in hospitals and evacuated amid intense crossfire.",
+      "why_it_matters": "Ongoing fighting makes it extremely difficult to contain a deadly virus strain that lacks a vaccine.",
+      "uncertainty": "It is unclear when health workers can safely return to conflict zones to track exposed individuals.",
+      "background": "Ebola is a severe disease spread through direct contact with infected bodily fluids. Containing an outbreak requires quickly isolating patients, tracking exposed individuals, and conducting safe burials. Eastern Congo has experienced long-standing conflict among numerous armed groups.",
+      "jargon": [
+        {
+          "term": "Bundibugyo virus",
+          "meaning": "A rare strain of Ebola that currently has no approved vaccine or specific medical treatment."
+        }
+      ],
+      "views": [],
+      "importance": "must-know"
+    },
+    {
+      "category": "Tech",
+      "title": "Dozens of court cases in England and Wales affected by undisclosed AI use in 2026",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/technology/2026/nov/26/dozens-of-court-cases-in-england-and-wales-affected-by-undisclosed-ai-use-in-2026",
+      "published": "2026-11-26T12:19:37+00:00",
+      "summary": "A police officer used AI to generate a dramatic victim statement to maximize a criminal sentence. Secret AI use has disrupted at least 25 court cases this year with fake laws and hallucinated precedents. Judges warn that unverified automated tools waste legal time and deskill the profession.",
+      "why_it_matters": "Undisclosed AI tools are inserting fake laws and fabricated statements into real court proceedings.",
+      "uncertainty": "It remains unclear how many other court cases have been secretly affected by unverified AI tools.",
+      "background": "Generative AI tools can rapidly draft documents, but they sometimes invent facts or non-existent legal precedents. Both legal professionals and individuals representing themselves in court have increasingly relied on these tools to speed up research.",
+      "jargon": [
+        {
+          "term": "hallucination",
+          "meaning": "When an artificial intelligence model generates false or completely invented information as if it were fact."
+        },
+        {
+          "term": "litigants in person",
+          "meaning": "People who represent themselves in court proceedings without hiring a lawyer."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Money",
+      "title": "US proposes new tariffs on 14 trading partners, including China, Japan and the EU – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/nov/25/rise-energy-bills-britain-2166-impossible-high-millions-households-stocks-tumble-as-ai-rally-fizzles-live-updates",
+      "published": "2026-11-25T17:19:11+00:00",
+      "summary": "Chinese goods could face total import taxes of 45% under newly proposed American trade rules. The US wants new tariffs on 14 trading partners to fight excess manufacturing capacity. These proposed duties follow a recent Supreme Court decision striking down broader global tariffs.",
+      "why_it_matters": "The US is reviving trade pressure on major economic partners to curb excess foreign production.",
+      "uncertainty": "The exact final rates remain subject to an upcoming official notice and a public comment period.",
+      "background": "Tariffs are taxes applied to foreign imports to protect local industries and influence foreign economic policies. The US proposed these measures after completing an eight-month probe into foreign market practices. The action comes after previous broad tariff attempts were struck down by the Supreme Court.",
+      "jargon": [
+        {
+          "term": "Tariff",
+          "meaning": "A tax placed by a government on goods imported from another country."
+        },
+        {
+          "term": "Section 301",
+          "meaning": "A US legal provision allowing trade retaliation against unfair foreign commercial practices."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Money",
+      "title": "Inflation is still hot, fueled in part by the AI boom",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/25/nx-s1-6053958/inflation-is-still-hot-fueled-in-part-by-the-ai-boom",
+      "published": "2026-11-25T22:04:36+00:00",
+      "summary": "The U.S. economy sped ahead at a 4.3% annual rate late this summer. Heavy artificial intelligence spending and strong consumer buying drove this rapid economic surge. However, this intense growth reportedly pushed annual inflation up to 3.8% in October.",
+      "why_it_matters": "Rapid economic growth and heavy tech spending are driving up prices for everyday consumers.",
+      "uncertainty": "It remains uncertain whether the central bank will raise interest rates again in January.",
+      "background": "Inflation measures how quickly prices for goods and services increase across the economy. When economic growth moves too fast, high demand can push prices up. To slow down inflation, central banks typically raise interest rates to curb spending.",
+      "jargon": [
+        {
+          "term": "GDP",
+          "meaning": "The total monetary value of all goods and services produced within a country."
+        },
+        {
+          "term": "Wealth effect",
+          "meaning": "A tendency for consumers to spend more money when their financial investments rise in value."
+        }
+      ],
+      "views": [],
+      "importance": "must-know"
+    },
+    {
+      "category": "Thailand & Asia",
+      "title": "Death-sentenced Sheikh Hasina's planned return puts Bangladesh on edge - and India in a bind",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cx30g71rev23o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-27T00:47:43+00:00",
+      "summary": "Ousted prime minister Sheikh Hasina plans to return to Bangladesh despite facing a death sentence. Her aides say she is even prepared to walk across the border on foot. Meanwhile, Bangladesh authorities insist she will be arrested in handcuffs upon arrival.",
+      "why_it_matters": "Her potential return threatens to destabilize Bangladesh further and creates a tough diplomatic test for India.",
+      "uncertainty": "It remains unclear whether Hasina will actually attempt to return or if the announcement is a political tactic.",
+      "background": "Hasina ruled Bangladesh for years before fleeing to India following mass student-led uprisings. Bangladesh's current government subsequently banned her political party and tried her in absentia for crimes against humanity.",
+      "jargon": [
+        {
+          "term": "extradition",
+          "meaning": "The formal process of handing over a person to another country for trial or punishment."
+        },
+        {
+          "term": "in absentia",
+          "meaning": "A legal proceeding taking place while the accused person is not physically present."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    }
+  ],
+  "briefing": {
+    "big_picture": "Today's news highlights a fast-moving U.S. economy where heavy AI spending is keeping inflation elevated alongside proposed new trade tariffs. Meanwhile, active conflicts around the world continue to complicate major health efforts and geopolitical stability.",
+    "top_pick": 4,
+    "top_pick_why": "It directly impacts everyday finances by explaining how rapid economic growth and heavy AI spending pushed U.S. inflation up to 3.8%."
+  }
+}
