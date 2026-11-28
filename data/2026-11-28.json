@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T03:47:05.686792+00:00",
+  "mode": "ai",
+  "stories": [
+    {
+      "category": "Politics & World",
+      "title": "Nigeria's 'ultimate hard man' who become an online meme",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cm3vg3lkrk03o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-28T01:20:35+00:00",
+      "summary": "Long before becoming a popular social media meme, Nigerian actor Pete Edochie gained fame playing a fierce warrior in 1987. He helped shape Nollywood through decades of commanding screen roles. Edochie has died at age 79 after battling prostate cancer.",
+      "why_it_matters": "Nigeria has lost a cultural icon who helped build Nollywood into a global film powerhouse.",
+      "uncertainty": "",
+      "background": "Nollywood is Nigeria's film industry, which expanded from local video releases into a global entertainment hub. Edochie was a major figure in this expansion, famous for portraying stern elders and traditional leaders.",
+      "jargon": [
+        {
+          "term": "Nollywood",
+          "meaning": "Nigeria's film industry, which is one of the largest movie industries in the world."
+        }
+      ],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Politics & World",
+      "title": "Victorian election 2026 live: voters head to the polls as Coalition seeks to topple Labor – latest news",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/live/2026/nov/28/victorian-election-live-results-updates-premier-ben-carroll-jess-wilson-warren-pickering-2026-victoria-polls-votes-latest-news-ntwnfb",
+      "published": "2026-11-28T03:34:26+00:00",
+      "summary": "Heavy Melbourne rain could alter election preference flows by up to 15 percent today. Soaking weather is preventing volunteers from successfully handing out voting cards outside polling stations. Meanwhile, federal Labor leaders admit the party faces a very tough night ahead.",
+      "why_it_matters": "Bad weather and long-standing government fatigue are making this Victorian election outcome unpredictable.",
+      "uncertainty": "It remains unclear how heavily the rain will impact final election results.",
+      "background": "In Victoria, voters choose state leaders based on key issues like health and public safety. Elections rely heavily on preference flows, where voters rank candidates in order of choice.",
+      "jargon": [
+        {
+          "term": "Preference flows",
+          "meaning": "The way votes are transferred to secondary choices when a top candidate is eliminated."
+        },
+        {
+          "term": "How-to-vote card",
+          "meaning": "A party-provided guide suggesting how voters should rank candidates on their ballot."
+        }
+      ],
+      "views": [
+        "Labor leaders say the party faces a tough night due to issues after ten years in power.",
+        "One Nation leaders say voters are feeling ready for change."
+      ],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Tech",
+      "title": "How gamers are using AI and leaked files to clone Grand Theft Auto 6",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c64gn8pe5eeqo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-28T01:30:50+00:00",
+      "summary": "Hackers and coders are using artificial intelligence to build an unofficial PC version of Grand Theft Auto 6. The effort relies on a leaked Xbox development file to reverse-engineer the massive game. Publisher Take-Two is already issuing copyright takedown notices to stop these unauthorized fan projects.",
+      "why_it_matters": "Advanced AI tools are making it easier for fans to clone and alter protected video games.",
+      "uncertainty": "Rockstar and Take-Two have not confirmed whether the leaked Xbox development files are authentic.",
+      "background": "Blockbuster video games often launch on consoles long before coming to personal computers. Game studios usually control these staggered release schedules, but impatience can drive fans to find unofficial workarounds.",
+      "jargon": [
+        {
+          "term": "Decompilation",
+          "meaning": "Converting a finished game back into readable code so it can be recreated or modified."
+        },
+        {
+          "term": "Reverse engineering",
+          "meaning": "Working backward from a completed product to understand and recreate how it was built."
+        }
+      ],
+      "views": [],
+      "importance": "just-for-fun"
+    },
+    {
+      "category": "Money",
+      "title": "Will new energy fixes cost more in January?",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/videos/cwjd7y4jk581o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-27T16:05:32+00:00",
+      "summary": "",
+      "why_it_matters": "",
+      "uncertainty": "",
+      "background": "",
+      "jargon": [],
+      "views": [],
+      "importance": "worth-knowing"
+    },
+    {
+      "category": "Money",
+      "title": "The Guardian view on AI and the Riemann hypothesis: a triumph of intelligence, a test of democracy | Editorial",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/27/the-guardian-view-on-ai-and-the-riemann-hypothesis-a-triumph-of-intelligence-a-test-of-democracy",
+      "published": "2026-11-27T18:07:43+00:00",
+      "summary": "An AI model reportedly helped a researcher solve the famous Riemann hypothesis, an unsolved math problem since 1859. This breakthrough raises fears that powerful algorithms could soon break global encryption protecting online finance and privacy. Governments now worry private tech firms hold too much control over these dangerous scientific discoveries.",
+      "why_it_matters": "AI solving complex math could threaten global digital security before governments can properly regulate the technology.",
+      "uncertainty": "It is unclear whether major mathematical breakthroughs breaking encryption have already occurred secretly without public knowledge.",
+      "background": "The Riemann hypothesis is a famous mathematical problem closely tied to the foundations of modern digital cryptography. Cryptography uses complex math to protect sensitive online transactions, financial systems, and private messages from unauthorized access. Rapid advances in artificial intelligence are allowing machines to solve math problems that previously required human ingenuity.",
+      "jargon": [
+        {
+          "term": "Riemann hypothesis",
+          "meaning": "A famous mathematical problem that underpins number theory and modern computer security systems."
+        },
+        {
+          "term": "Encryption",
+          "meaning": "A security technique that scrambles digital information to protect online banking, messages, and private data."
+        }
+      ],
+      "views": [],
+      "importance": "must-know"
+    },
+    {
+      "category": "Thailand & Asia",
+      "title": "Speaker Sophon denies stalling Saksayam petition",
+      "source": "Bangkok Post",
+      "url": "https://www.bangkokpost.com/thailand/politics/3362519/speaker-sophon-denies-stalling-saksayam-petition",
+      "published": "2026-11-27T22:50:00+00:00",
+      "summary": "",
+      "why_it_matters": "",
+      "uncertainty": "",
+      "background": "",
+      "jargon": [],
+      "views": [],
+      "importance": "just-for-fun"
+    }
+  ],
+  "briefing": {
+    "big_picture": "Today's news highlights how artificial intelligence is reshaping everything from digital security to fan-made video games. We also see election day turnout impacted by heavy weather alongside a tribute to a pioneering screen icon.",
+    "top_pick": 4,
+    "top_pick_why": "An AI model helping solve a historic math problem could eventually impact the global encryption protecting online finance and privacy."
+  }
+}
